@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: test
-  productName: Tile Aquarium
+  productName: Bites Match
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -169,10 +169,10 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.yidingyaoguo.hou
     Standalone: com.DefaultCompany.2DProject
-    iPhone: com.synchromeld.majianggame
+    iPhone: com.bitesmatch.match2dgame
   buildNumber:
     Standalone: 0
-    iPhone: 9
+    iPhone: 3
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
@@ -287,7 +287,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 65c8b80bb1eab174592b1f72ec2fd241, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

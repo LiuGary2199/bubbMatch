@@ -382,6 +382,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &582002303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 582002305}
+  - component: {fileID: 582002304}
+  m_Layer: 0
+  m_Name: Adjust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &582002304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582002303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525ece82a472e4dea837e1ef938fd15d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startManually: 1
+  eventBuffering: 0
+  sendInBackground: 0
+  launchDeferredDeeplink: 1
+  appToken: kdwe7nxuaj9c
+  logLevel: 1
+  environment: 1
+--- !u!4 &582002305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582002303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &798465995
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,9 +637,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d28c1ed7db50d547af085410e088bb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MAX_SDK_KEY: 18LBjf0brlxp0Bkz1CPIw/PEgooFcQ1XfqTZOb+QRY24rjpXZTbre3gjLFZ16tBmu0Md9Toy7z/MmyNmNMhYE7i9YnmcwtD8O23Jz7FgyP3jlpnVNAwwgg==
-  MAX_REWARD_ID: b09d1c981e494ed4
-  MAX_INTER_ID: 57b21ba2ff59f10c
+  MAX_SDK_KEY: /H92tOtxpjG0CFnozjQZS3cfaR9ETdXBl521o1SikFk+k+w/l4xgUQEPX7yAXF+a/da/jqnx8H2OYMXGEXaYqI75wPdQgK9dkPuWimc7YdiDQMfqwfcPaA==
+  MAX_REWARD_ID: e1c8af204ac54807
+  MAX_INTER_ID: f789065c1a1e1f51
   isTest: 0
 --- !u!4 &952907790
 Transform:
@@ -604,57 +655,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1240859164
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1240859166}
-  - component: {fileID: 1240859165}
-  m_Layer: 0
-  m_Name: Adjust
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1240859165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240859164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 525ece82a472e4dea837e1ef938fd15d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startManually: 1
-  eventBuffering: 0
-  sendInBackground: 0
-  launchDeferredDeeplink: 1
-  appToken: gifpu2ggio74
-  logLevel: 1
-  environment: 1
---- !u!4 &1240859166
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240859164}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378934675
 GameObject:
@@ -876,11 +876,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb04da7064d71145be2507de02e8eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BaseUrl: http://rajchowdhury.top/
-  BaseLoginUrl: http://rajchowdhury.top//api/client/user/getId?gameCode=
-  BaseConfigUrl: http://rajchowdhury.top//api/client/config?gameCode=
-  BaseTimeUrl: http://rajchowdhury.top//api/client/common/current_timestamp?gameCode=
-  BaseAdjustUrl: http://rajchowdhury.top//api/client/user/setAdjustId?gameCode=
+  BaseUrl: http://infinitequickplay.top/
+  BaseLoginUrl: http://infinitequickplay.top//api/client/user/getId?gameCode=
+  BaseConfigUrl: http://infinitequickplay.top//api/client/config?gameCode=
+  BaseTimeUrl: http://infinitequickplay.top//api/client/common/current_timestamp?gameCode=
+  BaseAdjustUrl: http://infinitequickplay.top//api/client/user/setAdjustId?gameCode=
   GameCode: 21293
   Channel: IOS
   country: 
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55e6df239df9c4b43bb3f9a4eb3d000d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appid: 1111111111111
+  appid: 6751802936
 --- !u!114 &1553519647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -928,7 +928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 188b98d692fe6ab49bb467109884fc45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adjustID: gifpu2ggio74
+  adjustID: kdwe7nxuaj9c
 --- !u!114 &1553519650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,7 +942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _LoginPlatform: 1
-  AppInfo: 41
+  AppInfo: 61
   Account: 
   Data:
     UserID: 

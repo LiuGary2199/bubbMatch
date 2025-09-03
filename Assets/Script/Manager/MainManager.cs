@@ -12,6 +12,7 @@ public class MainManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        Application.targetFrameRate = 240;
     }
 
     public void gameInit()

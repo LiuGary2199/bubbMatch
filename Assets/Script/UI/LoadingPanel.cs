@@ -32,8 +32,8 @@ public class LoadingPanel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (sliderImage.fillAmount <= 0.8f || (NetInfoMgr.instance.ready && CashOutManager.GetInstance().Ready))
-        if (sliderImage.fillAmount <= 0.8f || (NetInfoMgr.instance.ready ))
+        if (sliderImage.fillAmount <= 0.8f || (NetInfoMgr.instance.ready && CashOutManager.GetInstance().Ready))
+        //if (sliderImage.fillAmount <= 0.8f || (NetInfoMgr.instance.ready ))
         {
             sliderImage.fillAmount += Time.deltaTime / 3f;
             progressText.text = (int)(sliderImage.fillAmount * 100) + "%";

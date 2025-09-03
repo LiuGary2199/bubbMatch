@@ -251,7 +251,7 @@ public class ADManager : MonoBehaviour
         PostEventScript.GetInstance().SendEvent("9008", info.Revenue.ToString(), countryCodeByMAX);
 
         //带广告收入的漏传策略
-        //AdjustInitManager.Instance.AddAdCount(countryCodeByMAX, info.Revenue);
+        AdjustInitManager.Instance.AddAdCount(countryCodeByMAX, info.Revenue);
 
         string adjustAdid = AdjustInitManager.Instance.GetAdjustAdid();
         //发回收入数据给Adjust
@@ -331,7 +331,7 @@ public class ADManager : MonoBehaviour
         PostEventScript.GetInstance().SendEvent("9108", info.Revenue.ToString(), countryCodeByMAX);
 
         //带广告收入的漏传策略
-        //AdjustInitManager.Instance.AddAdCount(countryCodeByMAX, info.Revenue);
+        AdjustInitManager.Instance.AddAdCount(countryCodeByMAX, info.Revenue);
 
         //发回收入数据给Adjust
         if (!string.IsNullOrEmpty(AdjustInitManager.Instance.GetAdjustAdid()))
