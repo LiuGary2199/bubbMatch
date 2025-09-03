@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemAtlas
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f16767e4e51034d468c4f4b981033244, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 500e0c2069691004c865a642d4aba081, type: 3}
+  - {fileID: 21300000, guid: 6f7c6541a832f474392d9087e15868df, type: 3}
+  - {fileID: 21300000, guid: 321a685165b139f4da75ee3a82d98e0a, type: 3}
+  - {fileID: 21300000, guid: 29d08f71d87ad0949896636ae3e40eba, type: 3}
+  - {fileID: 21300000, guid: ea7828120dd96244096039ba72e3c6c9, type: 3}
+  - {fileID: 21300000, guid: 9ab1e6e23d76257428f1959b5adf3596, type: 3}
+  - {fileID: 21300000, guid: d5375773de85fab4386d05c9a820a64f, type: 3}
+  - {fileID: 21300000, guid: a7892783a79ace04998586edbfa5bbe4, type: 3}
+  - {fileID: 21300000, guid: 589f17752d5fab74580c3229042a8d18, type: 3}
+  - {fileID: 21300000, guid: 04286795a09e9654285b610eec832d26, type: 3}
+  - {fileID: 21300000, guid: 3706e876ac5f0504bb23865c536ea606, type: 3}
+  - {fileID: 21300000, guid: 6ff276e67740a1c4db0fc595da716c6e, type: 3}
+  - {fileID: 21300000, guid: 50969b77af8b3884f8b565d6a9a2d185, type: 3}
+  - {fileID: 21300000, guid: d07794d718621534ab616fa23247cd38, type: 3}
+  - {fileID: 21300000, guid: 5d14cdda07ef84e419255cbc5d454dc1, type: 3}
+  - {fileID: 21300000, guid: 15ceee0b091a3c54d84294e380f28425, type: 3}
+  - {fileID: 21300000, guid: 961c62bc7385a0741a413442d5224f71, type: 3}
+  - {fileID: 21300000, guid: f71f46bc2c4da094ba0266e575cda0cf, type: 3}
+  - {fileID: 21300000, guid: a38c15dd750a16b46ab403d24118a320, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - block_17
+  - block_3
+  - block_1
+  - block_12
+  - block_13
+  - block_0
+  - block_15
+  - block_2
+  - block_6
+  - block_5
+  - block_7
+  - block_11
+  - block_4
+  - block_14
+  - block_10
+  - block_16
+  - block_18
+  - block_9
+  - block_8
+  m_RenderDataMap: {}
+  m_Tag: ItemAtlas
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

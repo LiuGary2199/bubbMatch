@@ -1,0 +1,618 @@
+﻿{
+  "GameSetting": [
+    {
+      "id": "health_recharge_interval",
+      "value": "300",
+      "value_type": "int",
+      "comment": "体力恢复时间间隔"
+    },
+    {
+      "id": "health_cost",
+      "value": "1",
+      "value_type": "int",
+      "comment": "每关体力消耗"
+    },
+    {
+      "id": "last_lv_strategy_Collection",
+      "value": "1",
+      "value_type": "int",
+      "comment": "全部关卡都通过后奖励策略-宝箱（0、不给奖励；1：按最后一关奖励；2：从第一级循环）"
+    },
+    {
+      "id": "GooglePublicKey",
+      "value_type": "string",
+      "comment": "内购 - google公钥"
+    },
+    {
+      "id": "AppleRootCert",
+      "value_type": "string",
+      "comment": "内购 - Apple证书"
+    }
+  ],
+  "Item": {
+    "gold": {
+      "id": "gold",
+      "value_type": "Item",
+      "comment": "金币",
+      "icon": "Art/Tex/UI/Item/item_gold",
+      "defaultValue": 300,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 1
+    },
+    "diamond": {
+      "id": "diamond",
+      "value_type": "Item",
+      "comment": "钻石",
+      "icon": "Art/Tex/UI/Item/item_diamond",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 1
+    },
+    "health": {
+      "id": "health",
+      "value_type": "Item",
+      "comment": "体力",
+      "icon": "Art/Tex/UI/Item/item_health",
+      "defaultValue": 5,
+      "minValue": 0,
+      "maxValue": 30,
+      "type": 1
+    },
+    "unlimit_health": {
+      "id": "unlimit_health",
+      "value_type": "Item",
+      "comment": "无限体力",
+      "icon": "Art/Tex/UI/Item/item_health",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 1
+    },
+    "exp": {
+      "id": "exp",
+      "value_type": "Item",
+      "comment": "经验",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 2
+    },
+    "consecutive_wins": {
+      "id": "consecutive_wins",
+      "value_type": "Item",
+      "comment": "连胜",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 2
+    },
+    "remove_ad": {
+      "id": "remove_ad",
+      "value_type": "Item",
+      "comment": "免广告",
+      "icon": "Art/Tex/UI/Item/item_remove_ad",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": 1,
+      "type": 2
+    },
+    "skin_gb_1": {
+      "id": "skin_gb_1",
+      "value_type": "Item",
+      "comment": "皮肤1",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": 1,
+      "type": 2
+    },
+    "goldleaf": {
+      "id": "goldleaf",
+      "value_type": "Item",
+      "comment": "金箔",
+      "icon": "Art/Tex/UI/Item/item_goldleaf",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 2
+    },
+    "star": {
+      "id": "star",
+      "value_type": "Item",
+      "comment": "星星",
+      "icon": "Art/Tex/UI/Item/item_star",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": -1,
+      "type": 2
+    }
+  },
+  "ItemGroup": [
+    {
+      "id": "G1",
+      "item_id": "gold",
+      "item_num": 300
+    },
+    {
+      "id": "G1",
+      "item_id": "diamond",
+      "item_num": 50
+    },
+    {
+      "id": "G1",
+      "item_id": "health",
+      "item_num": 30
+    },
+    {
+      "id": "G2",
+      "item_id": "gold",
+      "item_num": 1000
+    },
+    {
+      "id": "G2",
+      "item_id": "diamond",
+      "item_num": 200
+    },
+    {
+      "id": "G3",
+      "item_id": "gold",
+      "item_num": 100
+    },
+    {
+      "id": "G4",
+      "item_id": "gold",
+      "item_num": 5000
+    },
+    {
+      "id": "ig_remove_ad",
+      "item_id": "remove_ad",
+      "item_num": 1
+    },
+    {
+      "id": "ig_remove_ad",
+      "item_id": "gold",
+      "item_num": 1000
+    },
+    {
+      "id": "rank_star_1",
+      "item_id": "gold",
+      "item_num": 1000
+    },
+    {
+      "id": "rank_star_1",
+      "item_id": "diamond",
+      "item_num": 100
+    },
+    {
+      "id": "rank_star_1",
+      "item_id": "unlimit_health",
+      "item_num": 7200
+    },
+    {
+      "id": "rank_star_2",
+      "item_id": "gold",
+      "item_num": 500
+    },
+    {
+      "id": "rank_star_2",
+      "item_id": "diamond",
+      "item_num": 50
+    },
+    {
+      "id": "rank_star_2",
+      "item_id": "unlimit_health",
+      "item_num": 7200
+    },
+    {
+      "id": "rank_star_3",
+      "item_id": "gold",
+      "item_num": 300
+    },
+    {
+      "id": "rank_star_3",
+      "item_id": "diamond",
+      "item_num": 30
+    },
+    {
+      "id": "rank_star_3",
+      "item_id": "unlimit_health",
+      "item_num": 7200
+    },
+    {
+      "id": "rank_star_4",
+      "item_id": "gold",
+      "item_num": 100
+    },
+    {
+      "id": "rank_star_4",
+      "item_id": "diamond",
+      "item_num": 10
+    }
+  ],
+  "Shop": [
+    {
+      "id": "s_remove_ad",
+      "itemgroup_id": "ig_remove_ad",
+      "gp_pid": "remove_ad_1",
+      "ios_pid": "remove_ad_1",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/UI_RemoveAd",
+      "purchase_type": 1,
+      "price": 39.9,
+      "is_show": false,
+      "num": 1
+    },
+    {
+      "id": "S1",
+      "itemgroup_id": "G1",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_pack1",
+      "purchase_type": 3,
+      "price": 100,
+      "is_show": true
+    },
+    {
+      "id": "S2",
+      "itemgroup_id": "G2",
+      "gp_pid": "gold1_2",
+      "ios_pid": "gold1_2",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_pack1",
+      "purchase_type": 1,
+      "price": 1.99,
+      "is_show": true
+    },
+    {
+      "id": "S3",
+      "itemgroup_id": "G3",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_gold_01",
+      "purchase_type": 1,
+      "price": 0,
+      "is_show": true,
+      "num": 1
+    },
+    {
+      "id": "S4",
+      "itemgroup_id": "G4",
+      "gp_pid": "gold2_2",
+      "ios_pid": "gold2_2",
+      "shop_icon": "Art/Tex/UI/UI_ShopPanel/icon_gold_01",
+      "purchase_type": 1,
+      "price": 8.99,
+      "is_show": true
+    }
+  ],
+  "ExpBox": [
+    {
+      "box_id": "Collection",
+      "level": 1,
+      "exp_key": "exp",
+      "exp_value": 1,
+      "itemgroup_id": "G1"
+    },
+    {
+      "box_id": "Collection",
+      "level": 2,
+      "exp_key": "exp",
+      "exp_value": 10,
+      "itemgroup_id": "G2"
+    },
+    {
+      "box_id": "Collection",
+      "level": 3,
+      "exp_key": "exp",
+      "exp_value": 20,
+      "itemgroup_id": "G3"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 1,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 2,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 3,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "StarBox",
+      "level": 4,
+      "exp_key": "star"
+    },
+    {
+      "box_id": "LevelBox",
+      "level": 1,
+      "exp_key": "exp"
+    },
+    {
+      "box_id": "LevelBox",
+      "level": 2,
+      "exp_key": "exp"
+    },
+    {
+      "box_id": "GoldBox",
+      "level": 1,
+      "exp_key": "goldleaf",
+      "exp_value": 10,
+      "item_id": "gold",
+      "item_value": 10
+    },
+    {
+      "box_id": "GoldBox",
+      "level": 2,
+      "exp_key": "goldleaf",
+      "exp_value": 10,
+      "item_id": "diamond",
+      "item_value": 5
+    },
+    {
+      "box_id": "GoldBox",
+      "level": 3,
+      "exp_key": "goldleaf",
+      "exp_value": 10,
+      "item_id": "gold",
+      "item_value": 20
+    },
+    {
+      "box_id": "GoldBox",
+      "level": 4,
+      "exp_key": "goldleaf",
+      "exp_value": 15,
+      "item_id": "unlimit_health",
+      "item_value": 900
+    },
+    {
+      "box_id": "GoldBox",
+      "level": 5,
+      "exp_key": "goldleaf",
+      "exp_value": 15,
+      "item_id": "diamond",
+      "item_value": 10
+    },
+    {
+      "box_id": "GoldBox",
+      "level": 6,
+      "exp_key": "goldleaf",
+      "exp_value": 20,
+      "item_id": "gold",
+      "item_value": 30
+    },
+    {
+      "box_id": "GoldBox",
+      "level": 7,
+      "exp_key": "goldleaf",
+      "exp_value": 20,
+      "item_id": "diamond",
+      "item_value": 15
+    }
+  ],
+  "Skin": [
+    {
+      "item_id": "skin_gb_1",
+      "skin_type": "Scheme",
+      "unlock_type": 4,
+      "unlock_value": "1"
+    },
+    {
+      "item_id": "skin_gb_2",
+      "skin_type": "Scheme",
+      "unlock_type": 4,
+      "unlock_value": "1"
+    },
+    {
+      "item_id": "skin_gb_3",
+      "skin_type": "Scheme",
+      "unlock_type": 4,
+      "unlock_value": "1"
+    }
+  ],
+  "Activity": {
+    "DailyGift": {
+      "id": "DailyGift",
+      "value_type": "ActivityDailyGiftCtrl",
+      "comment": "签到奖励",
+      "unlock_level": 0,
+      "start_time": 0,
+      "duration": -1,
+      "period": 86400,
+      "phases": 7,
+      "start_type": 1,
+      "panel": "DailyGiftPanel",
+      "auto_settlement": false,
+      "overlap": false,
+      "auto_open_time": "1",
+      "auto_open_priority": 1
+    },
+    "RemoveAd": {
+      "id": "RemoveAd",
+      "value_type": "ActivityRemoveAdCtrl",
+      "comment": "去广告",
+      "unlock_level": 0,
+      "start_time": 0,
+      "duration": -1,
+      "period": -1,
+      "phases": 1,
+      "start_type": 1,
+      "panel": "RemoveAdPanel",
+      "auto_settlement": true,
+      "overlap": false,
+      "auto_open_time": "1",
+      "auto_open_priority": 2
+    },
+    "GoldBox": {
+      "id": "GoldBox",
+      "value_type": "Activity",
+      "comment": "金箔宝箱",
+      "unlock_level": 0,
+      "start_time": 0,
+      "duration": -1,
+      "period": -1,
+      "phases": -1,
+      "start_type": 1,
+      "auto_settlement": true,
+      "overlap": true
+    },
+    "EndlessTreasure": {
+      "id": "EndlessTreasure",
+      "value_type": "ActivityEndlessTreasureCtrl",
+      "comment": "无尽宝藏",
+      "unlock_level": 0,
+      "start_time": 1713744000,
+      "duration": 86400,
+      "period": 604800,
+      "phases": -1,
+      "start_type": 1,
+      "panel": "EndlessTreasurePanel",
+      "auto_settlement": true,
+      "overlap": true
+    },
+    "RankStar": {
+      "id": "RankStar",
+      "value_type": "Activity",
+      "comment": "星星排行榜",
+      "unlock_level": 0,
+      "start_time": 1713744000,
+      "duration": 259200,
+      "period": 604800,
+      "phases": -1,
+      "start_type": 1,
+      "panel": "RankStarPanel",
+      "auto_settlement": false,
+      "overlap": true
+    }
+  },
+  "ActivityDailyGift": [
+    {
+      "day": 1,
+      "item_id": "gold",
+      "item_num": 100
+    },
+    {
+      "day": 2,
+      "item_id": "diamond",
+      "item_num": 10
+    },
+    {
+      "day": 3,
+      "item_id": "gold",
+      "item_num": 200
+    },
+    {
+      "day": 4,
+      "item_id": "diamond",
+      "item_num": 20
+    },
+    {
+      "day": 5,
+      "item_id": "gold",
+      "item_num": 300
+    },
+    {
+      "day": 6,
+      "item_id": "diamond",
+      "item_num": 30
+    },
+    {
+      "day": 7,
+      "itemgroup_id": "G1"
+    }
+  ],
+  "ActivityEndlessTreasure": [
+    {
+      "id": "1",
+      "item_id": "gold",
+      "item_num": 100,
+      "color": "#B6FFFE"
+    },
+    {
+      "id": "2",
+      "item_id": "diamond",
+      "item_num": 10,
+      "color": "#34FF92"
+    },
+    {
+      "id": "3",
+      "item_id": "unlimit_health",
+      "item_num": 600,
+      "color": "#25D9FF"
+    },
+    {
+      "id": "4",
+      "shop_id": "S4",
+      "color": "#FF615F"
+    },
+    {
+      "id": "5",
+      "item_id": "gold",
+      "item_num": 300,
+      "color": "#FFB339"
+    },
+    {
+      "id": "6",
+      "item_id": "diamond",
+      "item_num": 30,
+      "color": "#ED72FF"
+    },
+    {
+      "id": "7",
+      "item_id": "diamond",
+      "item_num": 30,
+      "color": "#FFF123"
+    },
+    {
+      "id": "8",
+      "item_id": "diamond",
+      "item_num": 30,
+      "color": "#ED72FF"
+    },
+    {
+      "id": "9",
+      "item_id": "diamond",
+      "item_num": 30,
+      "color": "#25D9FF"
+    }
+  ],
+  "Rank": [
+    {
+      "rank_id": "RankStar",
+      "activity_id": "RankStar",
+      "item_id": "star",
+      "item_num_type": 1,
+      "clear_item": false,
+      "max_ranking": 99
+    }
+  ],
+  "RankReward": [
+    {
+      "rank_id": "RankStar",
+      "min_rank": 1,
+      "max_rank": 1,
+      "itemgroup_id": "rank_star_1",
+      "item_num": 200
+    },
+    {
+      "rank_id": "RankStar",
+      "min_rank": 2,
+      "max_rank": 2,
+      "itemgroup_id": "rank_star_2",
+      "item_num": 150
+    },
+    {
+      "rank_id": "RankStar",
+      "min_rank": 3,
+      "max_rank": 3,
+      "itemgroup_id": "rank_star_3",
+      "item_num": 100
+    },
+    {
+      "rank_id": "RankStar",
+      "min_rank": 4,
+      "max_rank": 10,
+      "itemgroup_id": "rank_star_4",
+      "item_num": 50
+    }
+  ]
+}

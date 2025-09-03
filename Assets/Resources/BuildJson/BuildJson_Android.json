@@ -1,0 +1,17 @@
+{
+    "BuildTarget": "Android",
+    "DesState": "DES",
+    "BaseUrl": "http://g.creativecatapp.com",
+    "GameName": "GravFort Nexus",
+    "PackageName": "com.cashpusher.wingamezhen",
+    "BuildCode": 6,
+    "Applovin_SDK_KEY": "f9j9zRlXwdWgyxgwFFgiF4vm7pb44y8Nzwkwx535Jl87wafirOCuKRkvFOlXxT5E7JG3MRqg5BwJy8nqvIZigrbU3M6zvbhmfpInosCT+FlcsBtG9NKF/w==",
+    "Applovin_REWARD_ID": "388547fb994948c1",
+    "Applovin_INTER_ID": "56b97ff780f2f978",
+    "Adjust_APP_ID": "ldhiq23i0w00",
+    "GameCode": "21248",
+    "Rate_ID": null,
+    "Build_path": "/Users/yfax/Desktop/未命名文件夹",
+    "ZT_LoginPlatform": 0,
+    "ZT_ID": "4"
+}

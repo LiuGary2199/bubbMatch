@@ -1,0 +1,27 @@
+
+feichuan.png
+size: 1359,1110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feichuan
+  rotate: false
+  xy: 2, 2
+  size: 955, 484
+  orig: 1080, 2340
+  offset: 59, 1403
+  index: -1
+g
+  rotate: true
+  xy: 2, 488
+  size: 620, 1355
+  orig: 1080, 2340
+  offset: 225, 130
+  index: -1
+quana_00
+  rotate: false
+  xy: 959, 230
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

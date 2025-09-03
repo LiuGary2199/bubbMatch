@@ -1,0 +1,87 @@
+{
+	"ConfigInfo": [
+		{
+			"Key": "本配置文件说明"
+		},
+		{
+			"Key": "HomePanel",
+			"Value": "UIPanel\\HomePanel"
+		},
+		{
+			"Key": "GamePanel",
+			"Value": "UIPanel\\GamePanel"
+		},
+		{
+			"Key": "SettingPanel",
+			"Value": "UIPanel\\SettingPanel"
+		},
+		{
+			"Key": "Toast",
+			"Value": "UIPanel\\Common\\Toast"
+		},
+		{
+			"Key": "CollectEffect",
+			"Value": "UIPanel\\Common\\CollectEffect"
+		},
+		{
+			"Key": "LevelCompletePanel",
+			"Value": "UIPanel\\LevelCompletePanel"
+		},
+		{
+			"Key": "RateUsPanel",
+			"Value": "UIPanel\\RateUsPanel"
+		},
+		{
+			"Key": "DailyGiftPanel",
+			"Value": "UIPanel\\DailyGift\\DailyGiftPanel"
+		},
+		{
+			"Key": "RemoveAdPanel",
+			"Value": "UIPanel\\RemoveAd\\RemoveAdPanel"
+		},
+		{
+			"Key": "EndlessTreasurePanel",
+			"Value": "UIPanel\\EndlessTreasure\\EndlessTreasurePanel"
+		},
+		{
+			"Key": "RankStarPanel",
+			"Value": "UIPanel\\RankStar\\RankStarPanel"
+		},
+		{
+			"Key": "RewardPanel",
+			"Value": "UIPanel\\RewardPanel\\RewardPanel"
+		},
+		{
+			"Key": "NewUserGuidePanel",
+			"Value": "UIPanel\\NewUserGuidePanel"
+		},
+		{
+			"Key": "CashOutPanel",
+			"Value": "UIPanel\\CashOutPanel"
+		},
+		{
+			"Key": "BlockPanel",
+			"Value": "UIPanel\\BlockPanel"
+		},
+		{
+			"Key": "LowRewardPanel",
+			"Value": "UIPanel\\LowRewardPanel"
+		},
+		{
+			"Key": "DailyPopPanel",
+			"Value": "UIPanel\\DailyPopPanel"
+		},
+		{
+			"Key": "SignInPanel",
+			"Value": "UIPanel\\SignInPanel"
+		},
+		{
+			"Key": "ContinueOrFailPanel",
+			"Value": "UIPanel\\ContinueOrFailPanel"
+		},
+		{
+			"Key": "InsertTips",
+			"Value": "UIPanel\\InsertTips"
+		}
+	]
+}

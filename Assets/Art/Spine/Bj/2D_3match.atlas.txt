@@ -1,0 +1,41 @@
+
+2D_3match.png
+size: 1790,644
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 640, 1536
+  orig: 642, 1538
+  offset: 1, 1
+  index: -1
+2
+  rotate: true
+  xy: 1540, 359
+  size: 283, 248
+  orig: 283, 248
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1702, 328
+  size: 64, 29
+  orig: 66, 32
+  offset: 1, 2
+  index: -1
+4
+  rotate: false
+  xy: 1540, 293
+  size: 160, 64
+  orig: 162, 66
+  offset: 1, 1
+  index: -1
+lrj_10113_tex_10
+  rotate: false
+  xy: 1540, 183
+  size: 108, 108
+  orig: 128, 128
+  offset: 10, 10
+  index: -1

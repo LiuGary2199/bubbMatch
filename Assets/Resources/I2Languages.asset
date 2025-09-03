@@ -1,0 +1,3325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: AWESOME!
+      TermType: 0
+      Description: 
+      Languages:
+      - Awesome!
+      - 
+      - Luar Biasa!
+      - "\u0E40\u0E08\u0E4B\u0E07!"
+      - "\u0110\xE1ng Kinh Ng\u1EA1c!"
+      - Hebat!
+      - "\u60CA\u4EBA\u7684\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Almost there! Please complete the task to obtain your gift
+      TermType: 0
+      Description: 
+      Languages:
+      - Almost there! Please complete the task to obtain your gift.
+      - "\u3082\u3046\u3059\u3050\u305D\u3053\u3067\u3059\uFF01\u30BF\u30B9\u30AF\u3092\u5B8C\u4E86\u3057\u3066\u30AE\u30D5\u30C8\u3092\u5165\u624B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - Hampir sampai! Silakan selesaikan tugas untuk mendapatkan hadiah Anda.
+      - "\u0E40\u0E01\u0E37\u0E2D\u0E1A! \u0E01\u0E23\u0E38\u0E13\u0E32\u0E01\u0E23\u0E2D\u0E01\u0E07\u0E32\u0E19\u0E43\u0E2B\u0E49\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E31\u0E1A\u0E02\u0E2D\u0E07\u0E02\u0E27\u0E31\u0E0D\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 "
+      - "R\u1EA5t g\u1EA7n! Vui l\xF2ng ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5 c\u1EE7a
+        b\u1EA1n \u0111\u1EC3 c\xF3 \u0111\u01B0\u1EE3c m\xF3n qu\xE0 c\u1EE7a b\u1EA1n"
+      - Hampir! Sila lengkapkan tugas anda untuk mendapatkan hadiah anda
+      - "\u5DEE\u4E0D\u591A\u4E86\uFF01\u8BF7\u5B8C\u6210\u4EFB\u52A1\u4EE5\u83B7\u5F97\u60A8\u7684\u793C\u7269"
+      - "\u0422\u044B \u041F\u043E\u0447\u0442\u0438 \u0422\u0430\u043C! \u0412\u044B\u043F\u043E\u043B\u043D\u044F\u0439\u0442\u0435
+        \u0417\u0430\u0434\u0430\u043D\u0438\u044F \u0418 \u041F\u043E\u043B\u0443\u0447\u0430\u0439\u0442\u0435
+        \u041F\u043E\u0434\u0430\u0440\u043A\u0438."
+      - "Quase l\xE1! Por favor, complete a tarefa para obter o seu presente."
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: BACK HOME
+      TermType: 0
+      Description: 
+      Languages:
+      - Back Home
+      - "\u623B\u308B"
+      - Kembali Ke Rumah
+      - "\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19"
+      - "V\u1EC1 Nh\xE0"
+      - Balik Rumah
+      - "\u56DE\u5BB6"
+      - "\u0414\u043E\u043C\u043E\u0439"
+      - De Volta Para Casa
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: BONUS
+      TermType: 0
+      Description: 
+      Languages:
+      - Bonus
+      - "\u30A2\u30EF\u30FC\u30C9"
+      - Bonus
+      - "\u0E42\u0E1A\u0E19\u0E31\u0E2A"
+      - "T\u0103\u0323ng Kem"
+      - Bonus
+      - "\u5956\u91D1"
+      - "\u0411\u043E\u043D\u0443\u0441"
+      - "B\xF4nus"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: BRLNSDB
+      TermType: 1
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Back Home
+      TermType: 0
+      Description: 
+      Languages:
+      - Back Home
+      - "\u623B\u308B"
+      - Kembali Ke Rumah
+      - "\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19"
+      - "V\u1EC1 Nh\xE0"
+      - Balik Rumah
+      - "\u56DE\u5BB6"
+      - "\u0414\u043E\u043C\u043E\u0439"
+      - De Volta Para Casa
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: CHFonts
+      TermType: 1
+      Description: 
+      Languages:
+      - CHFonts
+      - FRAHV
+      - 
+      - 
+      - 
+      - 
+      - 
+      - FRAHV
+      - FRAHV
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: CLAIM
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - "\u8ACB\u6C42"
+      - Dapatkan
+      - "\u0E23\u0E31\u0E1A"
+      - "Nh\u1EADn"
+      - Dapatkan
+      - "\u83B7\u5F97"
+      - "\u0422\u0440\u0435\u0431\u043E\u0432\u0430\u0442\u044C"
+      - Alegar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: COMBOS
+      TermType: 0
+      Description: 
+      Languages:
+      - Combos
+      - "\u30B3\u30F3\u30DC"
+      - Kombo
+      - "\u0E04\u0E2D\u0E21\u0E42\u0E1A"
+      - "K\u1EBFt H\u1EE3p"
+      - Kombo
+      - "\u8FDE\u51FB"
+      - "\u041A\u043E\u043C\u0431\u043E"
+      - Combos
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: CONGRATULATIONS
+      TermType: 0
+      Description: 
+      Languages:
+      - Congratulations
+      - "\u304A\u3081\u3067\u3068\u3046"
+      - Selamat
+      - "\u0E02\u0E2D\u0E41\u0E2A\u0E14\u0E07\u0E04\u0E27\u0E32\u0E21\u0E22\u0E34\u0E19\u0E14\u0E35"
+      - "Ch\xFAc m\u1EEBng"
+      - Tahniah
+      - "\u795D\u8D3A"
+      - "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+      - "Parab\xE9ns"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Characters
+      TermType: 0
+      Description: 
+      Languages:
+      - Characters
+      - "\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC"
+      - Penampilan Kulit.
+      - "\u0E2A\u0E01\u0E34\u0E19\u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23"
+      - "Vai tr\xF2 v\xE0 da"
+      - Peranan dan kulit
+      - "\u4EBA\u7269"
+      - "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0438"
+      - Personagens
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Check in for 7 consecutive days
+      TermType: 0
+      Description: 
+      Languages:
+      - Check in for 7 days
+      - "7\u65E5\u9593\u30C1\u30A7\u30C3\u30AF\u30A4\u30F3"
+      - Check in selama 7 hari
+      - "\u0E40\u0E0A\u0E47\u0E04\u0E2D\u0E34\u0E19 7 \u0E27\u0E31\u0E19\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E01\u0E31\u0E19"
+      - "\u0110\u0103ng k\xFD trong 7 ng\xE0y li\xEAn ti\u1EBFp"
+      - Daftar masuk selama 7 hari berturut-turut
+      - "\u8FDE\u7EED7\u5929\u7B7E\u5230"
+      - "\u0417\u0430\u0435\u0437\u0434 \u043D\u0430 7 \u0434\u043D\u0435\u0439"
+      - Check-in por 7 dias
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Claim
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - "\u8ACB\u6C42"
+      - Dapatkan
+      - "\u0E23\u0E31\u0E1A"
+      - "Nh\u1EADn"
+      - Dapatkan
+      - "\u83B7\u5F97"
+      - "\u0422\u0440\u0435\u0431\u043E\u0432\u0430\u0442\u044C"
+      - Alegar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Claim x3
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - 
+      - <size=50>
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Coins
+      TermType: 0
+      Description: 
+      Languages:
+      - Coins
+      - 
+      - Koin
+      - "\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D"
+      - "\u0110\u1ED3ng Xu"
+      - Syiling
+      - "\u786C\u5E01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Collect skinpieces by playing the game. Watch the video to speed up the
+        collection of pieces. Cheating is strictly prohibited. Once collected, enter
+        the correct player ID to apply.
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xB7 Collect skinpieces by playing the game.\n\n\xB7 Watch the video to
+        speed up the collection of pieces.\n\n\xB7 Cheating is strictly prohibited.\n\n\xB7
+        Once collected, enter the correct player ID to apply."
+      - 
+      - "\xB7 Kumpulkan potongan kulit dengan memainkan game.\n\n\xB7 Tonton video
+        untuk mempercepat pengumpulan potongan.\n\n\xB7 Dilarang keras menyontek.\n\n\xB7
+        Setelah dikumpulkan, masukkan ID pemain yang benar untuk diterapkan."
+      - "\xB7\u0E23\u0E27\u0E1A\u0E23\u0E27\u0E21\u0E1C\u0E34\u0E27\u0E2B\u0E19\u0E31\u0E07\u0E14\u0E49\u0E27\u0E22\u0E01\u0E32\u0E23\u0E40\u0E25\u0E48\u0E19\u0E40\u0E01\u0E21\n\n\xB7\u0E14\u0E39\u0E27\u0E34\u0E14\u0E35\u0E42\u0E2D\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E47\u0E27\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E47\u0E27\u0E02\u0E2D\u0E07\u0E40\u0E28\u0E29\u0E40\u0E25\u0E47\u0E01\u0E40\u0E28\u0E29\u0E19\u0E49\u0E2D\u0E22\n\n\xB7
+        \u0E01\u0E32\u0E23\u0E42\u0E01\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E34\u0E48\u0E07\u0E15\u0E49\u0E2D\u0E07\u0E2B\u0E49\u0E32\u0E21\u0E42\u0E14\u0E22\u0E40\u0E14\u0E47\u0E14\u0E02\u0E32\u0E14\n\n\xB7
+        \u0E40\u0E21\u0E37\u0E48\u0E2D\u0E23\u0E27\u0E1A\u0E23\u0E27\u0E21\u0E41\u0E25\u0E49\u0E27
+        \u0E43\u0E2B\u0E49\u0E1B\u0E49\u0E2D\u0E19 ID \u0E1C\u0E39\u0E49\u0E40\u0E25\u0E48\u0E19\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E2A\u0E21\u0E31\u0E04\u0E23"
+      - "\xB7 Thu th\u1EADp da b\u1EB1ng c\xE1ch ch\u01A1i c\xE1c tr\xF2 ch\u01A1i.\n\n\xB7
+        Xem video \u0111\u1EC3 t\u0103ng t\u1ED1c \u0111\u1ED9 c\u1EE7a c\xE1c m\u1EA3nh
+        v\u1EE1.\n\n\xB7 Th\u1EADt nghi\xEAm c\u1EA5m vi\u1EC7c l\u1EEBa d\u1ED1i.\n\n\xB7
+        Sau khi thu th\u1EADp, h\xE3y nh\u1EADp ID ng\u01B0\u1EDDi ch\u01A1i ch\xEDnh
+        x\xE1c cho \u1EE9ng d\u1EE5ng."
+      - "\xB7 Kumpulkan kulit dengan bermain permainan.\n\n\xB7 Tonton video untuk
+        mempercepatkan pengumpulan kepingan.\n\n\xB7 Ia dilarang keras untuk menipu.\n\n\xB7
+        Setelah dikumpulkan, masukkan ID pemain yang betul untuk digunakan."
+      - "\xB7\u901A\u8FC7\u73A9\u6E38\u620F\u6536\u96C6\u76AE\u80A4\u3002\n\n\xB7
+        \u89C2\u770B\u89C6\u9891\u4EE5\u52A0\u5FEB\u6536\u96C6\u788E\u7247\u7684\u901F\u5EA6\u3002\n\n\xB7
+        \u4E25\u7981\u4F5C\u5F0A\u3002\n\n\xB7 \u6536\u96C6\u540E\uFF0C\u8F93\u5165\u6B63\u786E\u7684\u73A9\u5BB6
+        ID \u8FDB\u884C\u7533\u8BF7\u3002"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Combo
+      TermType: 0
+      Description: 
+      Languages:
+      - Combo
+      - 
+      - Kombo
+      - "\u0E04\u0E2D\u0E21\u0E42\u0E1A"
+      - Combo
+      - Kombo
+      - "\u7EC4\u5408"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Combo merge brings you lots of Diamonds
+      TermType: 0
+      Description: 
+      Languages:
+      - Combo merge brings you lots of Diamonds!
+      - 
+      - Penggabungan kombo membawa Andabanyak berlian
+      - "\u0E04\u0E2D\u0E21\u0E42\u0E1A\u0E1C\u0E2A\u0E32\u0E19\n\u0E19\u0E33\u0E40\u0E1E\u0E0A\u0E23\u0E21\u0E32\u0E01\u0E21\u0E32\u0E22\u0E21\u0E32\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13"
+      - "H\u1EE3p nh\u1EA5t t\u1ED5 h\u1EE3p mang \u0111\u1EBFn cho b\u1EA1nr\u1EA5t
+        nhi\u1EC1u kim c\u01B0\u01A1ng"
+      - Gabungan kombo membawa andabanyak Berlian
+      - "\u7EC4\u5408\u5408\u5E76\u4E3A\u60A8\u5E26\u6765\u5F88\u591A\u94BB\u77F3"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Contact Us
+      TermType: 0
+      Description: 
+      Languages:
+      - Contact Us
+      - "\u79C1\u9054\u3068\u63A5\u7D9A"
+      - Hubungi Kami
+      - "\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E40\u0E23\u0E32"
+      - "Li\xEAn H\u1EC7 Ch\xFAng T\xF4i"
+      - Hubungi Kami
+      - "\u8054\u7CFB\u6211\u4EEC"
+      - "\u0421\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0421 \u041D\u0430\u043C\u0438"
+      - Contate-Nos
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Continue
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue
+      - "\u7D9A\u304F"
+      - Melanjutkan
+      - "\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E15\u0E48\u0E2D"
+      - "Ti\u1EBFp T\u1EE5c"
+      - Teruskan
+      - "\u7EE7\u7EED"
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C"
+      - Continuar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Continue Playing
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue Playing
+      - 
+      - Terus Bermain
+      - "\u0E40\u0E25\u0E48\u0E19\u0E15\u0E48\u0E2D"
+      - "Ti\u1EBFp T\u1EE5c Ch\u01A1i"
+      - Teruskan Bermain
+      - "\u7EE7\u7EED\u73A9"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Country
+      TermType: 0
+      Description: 
+      Languages:
+      - Country
+      - "\u56FD"
+      - Negara
+      - "\u0E0A\u0E32\u0E15\u0E34"
+      - "Qu\u1ED1c gia"
+      - Negara
+      - "\u56FD\u5BB6"
+      - "\u0421\u0442\u0440\u0430\u043D\u0430"
+      - "Pa\xEDs"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: CountryFonts
+      TermType: 1
+      Description: 
+      Languages:
+      - RobloxShop/RobloxFonts/USFonts
+      - 
+      - RobloxShop/RobloxFonts/IDFonts
+      - RobloxShop/RobloxFonts/THFonts
+      - RobloxShop/RobloxFonts/VNFonts
+      - RobloxShop/RobloxFonts/MYFonts
+      - RobloxShop/RobloxFonts/CHFonts
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Crazy!
+      TermType: 0
+      Description: 
+      Languages:
+      - Crazy!
+      - 
+      - Gila!
+      - "\u0E04\u0E25\u0E31\u0E48\u0E07\u0E44\u0E04\u0E25\u0E49!"
+      - "Kh\xF9ng!"
+      - Gila!
+      - "\u75AF\u72C2\u7684\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: DAILY BONUS
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily Bonus
+      - 
+      - Bonus Harian
+      - "\u0E42\u0E1A\u0E19\u0E31\u0E2A\u0E1B\u0E23\u0E30\u0E08\u0E33\u0E27\u0E31\u0E19"
+      - "Ti\u1EC1n Th\u01B0\u1EDFng H\xE0ng Ng\xE0y"
+      - Bonus Harian
+      - "\u6BCF\u65E5\u5956\u91D1"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: DONE
+      TermType: 0
+      Description: 
+      Languages:
+      - Done
+      - 
+      - Selesai
+      - "\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E34\u0E49\u0E19"
+      - "K\u1EBFt th\xFAc"
+      - Selesai
+      - "\u5B8C\u6BD5"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Day 1
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 1
+      - 
+      - Hari 1
+      - "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 1"
+      - "1 Ng\xE0y"
+      - Hari 1
+      - "\u7B2C\u4E00\u5929"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Day 2
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 2
+      - 
+      - Hari Ke-2
+      - "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 2"
+      - "Ng\xE0y 2"
+      - Hari Ke 2
+      - "\u7B2C 2 \u5929"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Day 3
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 3
+      - 
+      - Hari Ke-3
+      - "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 3"
+      - "Ng\xE0y 3"
+      - Hari Ke 3
+      - "\u7B2C 3 \u5929"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Day 4
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 4
+      - 
+      - Hari 4
+      - "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 4"
+      - "Ng\xE0y 4"
+      - Hari Ke 4
+      - "\u7B2C 4 \u5929"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Day 5
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 5
+      - 
+      - Hari Ke 5
+      - "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 5"
+      - "Ng\xE0y 5"
+      - Hari Ke 5
+      - "\u7B2C 5 \u5929"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Day 6
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 6
+      - 
+      - Hari 6
+      - "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 6"
+      - "Ng\xE0y 6"
+      - Hari Ke 6
+      - "\u7B2C 6 \u5929"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Day 7
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 7
+      - 
+      - Hari Ke 7
+      - "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 7"
+      - "Ng\xE0y 7"
+      - Hari Ke 7
+      - "\u7B2C 7 \u5929"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Diamonds
+      TermType: 0
+      Description: 
+      Languages:
+      - Diamonds
+      - 
+      - Berlian
+      - "\u0E40\u0E1E\u0E0A\u0E23"
+      - "Kim C\u01B0\u01A1ng"
+      - Berlian
+      - "\u94BB\u77F3"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: ERROR
+      TermType: 0
+      Description: 
+      Languages:
+      - ERROR
+      - 
+      - Kesalahan
+      - "\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14"
+      - "L\u1ED7i"
+      - Kesilapan
+      - "\u9519\u8BEF"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: EnglishTishi
+      TermType: 5
+      Description: 
+      Languages:
+      - English 1
+      - 
+      - IndonesianTishi
+      - ThaiTishi
+      - VietnameseTishi
+      - MalayTishi
+      - EnglishTishi
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: FAILED
+      TermType: 0
+      Description: 
+      Languages:
+      - Failed
+      - 
+      - Gagal
+      - "\u0E25\u0E49\u0E21\u0E40\u0E2B\u0E25\u0E27"
+      - "Th\u1EA5t B\u1EA1i"
+      - Gagal
+      - "\u5931\u8D25"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Free
+      TermType: 0
+      Description: 
+      Languages:
+      - Free
+      - 
+      - Gratis
+      - "\u0E1F\u0E23\u0E35"
+      - "Mi\u1EC5n Ph\xED"
+      - Percuma
+      - "\u81EA\u7531"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Free Spin
+      TermType: 0
+      Description: 
+      Languages:
+      - Free Spin
+      - 
+      - Putaran Gratis
+      - "\u0E2B\u0E21\u0E38\u0E19\u0E1F\u0E23\u0E35"
+      - "L\u01B0\u1EE3t Quay Mi\u1EC5n Ph\xED"
+      - Putaran Percuma
+      - "\u81EA\u7531\u65CB\u8F6C"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: GAME OVER
+      TermType: 0
+      Description: 
+      Languages:
+      - Game Over
+      - "\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC"
+      - Tamat
+      - "\u0E08\u0E1A\u0E40\u0E01\u0E21"
+      - "Tr\xF2 Ch\u01A1i K\u1EBFt Th\xFAc"
+      - Permainan Tamat
+      - "\u6E38\u620F\u7ED3\u675F"
+      - "\u0418\u0433\u0440\u0430 \u0417\u0430\u043A\u043E\u043D\u0447\u0435\u043D\u0430"
+      - Game Over
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Get
+      TermType: 0
+      Description: 
+      Languages:
+      - Get
+      - "\u5F97\u308B"
+      - Dapatkan
+      - "\u0E23\u0E31\u0E1A"
+      - "Nh\u1EADn"
+      - Dapatkan
+      - "\u5F97\u5230"
+      - "\u041F\u043E\u043B\u0443\u0447\u0430\u0442\u044C"
+      - Pegar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Get 25 more fishes
+      TermType: 0
+      Description: 
+      Languages:
+      - Get 25 more fishes
+      - 
+      - Dapatkan 25 Ikan
+      - "\u0E23\u0E31\u0E1A 25 \u0E1B\u0E25\u0E32"
+      - "Nh\u1EADn 25 con c\xE1"
+      - Dapatkan 25 ikan
+      - "\u83B7\u5F97 25 \u6761\u9C7C"
+      - 
+      - Consiga mais 25 peixes
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Get All
+      TermType: 0
+      Description: 
+      Languages:
+      - Get All
+      - 
+      - Dapatkan
+      - "\u0E23\u0E31\u0E1A\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
+      - "L\u1EA5y H\u1EBFt"
+      - Dapatkan
+      - "\u5F97\u5230\u6240\u6709"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Get More
+      TermType: 0
+      Description: 
+      Languages:
+      - Get More
+      - "\u591A\u304F\u3092\u5F97\u308B"
+      - Dapatkan
+      - "<size=46>\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21</size>"
+      - "L\u1EA5y"
+      - Dapatkan
+      - "\u83B7\u53D6\u66F4\u591A"
+      - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0411\u043E\u043B\u044C\u0448\u0435"
+      - Pegue Mais
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Get Random One
+      TermType: 0
+      Description: 
+      Languages:
+      - Get Random One
+      - 
+      - Dapatkan Yang Acak
+      - "\u0E2A\u0E38\u0E48\u0E21\u0E23\u0E31\u0E1A"
+      - "L\u1EA5y Ng\u1EABu Nhi\xEAn M\u1ED9t C\xE1i"
+      - Dapatkan Satu Secara Rawak
+      - "\u968F\u673A\u83B7\u5F97\u4E00\u4E2A"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Good!
+      TermType: 0
+      Description: 
+      Languages:
+      - Good!
+      - 
+      - Bagus!
+      - "\u0E14\u0E35!"
+      - "T\u1ED1t!"
+      - Baik!
+      - "\u597D\u7684\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Great!
+      TermType: 0
+      Description: 
+      Languages:
+      - Great!
+      - 
+      - Bagus!
+      - "\u0E22\u0E2D\u0E14\u0E40\u0E22\u0E35\u0E48\u0E22\u0E21!"
+      - "Tuy\u1EC7t V\u1EDDi!"
+      - Hebat!
+      - "\u4F1F\u5927\u7684\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: INFORMATION
+      TermType: 0
+      Description: 
+      Languages:
+      - Information
+      - 
+      - Informasi
+      - "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25"
+      - "Th\xF4ng tin"
+      - Maklumat
+      - "\u4FE1\u606F"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: If you have any opinions, please let us know
+      TermType: 0
+      Description: 
+      Languages:
+      - If you have any opinions,please let us know
+      - "\u3054\u610F\u898B\u304C\u3054\u3056\u3044\u307E\u3057\u305F\u3089\u3001\u304A\u805E\u304B\u305B\u304F\u3060\u3055\u3044"
+      - Jika Anda memiliki pendapat,tolong beritahu kami
+      - "\u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E21\u0E35\u0E04\u0E27\u0E32\u0E21\u0E04\u0E34\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E43\u0E14\u0E46\n\u0E42\u0E1B\u0E23\u0E14\u0E41\u0E08\u0E49\u0E07\u0E43\u0E2B\u0E49\u0E40\u0E23\u0E32\u0E17\u0E23\u0E32\u0E1A"
+      - "N\u1EBFu b\u1EA1n c\xF3 b\u1EA5t k\u1EF3 \xFD ki\u1EBFn \u200B\u200Bn\xE0o,xin
+        vui l\xF2ng cho ch\xFAng t\xF4i bi\u1EBFt"
+      - Jika anda mempunyai sebarang pendapat,sila maklumkan pada kami
+      - "\u5982\u679C\u60A8\u6709\u4EFB\u4F55\u610F\u89C1\uFF0C\u8BF7\u544A\u8BC9\u6211\u4EEC"
+      - "\u0415\u0441\u043B\u0438 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044C
+        \u043A\u0430\u043A\u0438\u0435-\u043B\u0438\u0431\u043E \u043C\u043D\u0435\u043D\u0438\u044F,
+        \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0441\u043E\u043E\u0431\u0449\u0438\u0442\u0435
+        \u043D\u0430\u043C"
+      - "Se voc\xEA tiver alguma opini\xE3o, por favor nos avise"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: In the free spin you get the above rewards
+      TermType: 0
+      Description: 
+      Languages:
+      - In the free spin you get the above rewards
+      - "\u30D5\u30EA\u30FC\u30B9\u30D4\u30F3\u3067\u306F\u4E0A\u8A18\u306E\u5831\u916C\u3092\u7372\u5F97\u3067\u304D\u307E\u3059"
+      - Dalam putaran gratis Anda mendapatkan hadiah di atas
+      - "\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2B\u0E21\u0E38\u0E19\u0E1F\u0E23\u0E35
+        \u0E04\u0E38\u0E13\u0E08\u0E30\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E02\u0E49\u0E32\u0E07\u0E15\u0E49\u0E19"
+      - "Trong v\xF2ng quay mi\u1EC5n ph\xED, b\u1EA1n s\u1EBD nh\u1EADn \u0111\u01B0\u1EE3c
+        c\xE1c ph\u1EA7n th\u01B0\u1EDFng tr\xEAn"
+      - Dalam putaran percuma anda mendapat ganjaran di atas
+      - "\u5728\u514D\u8D39\u65CB\u8F6C\u4E2D\uFF0C\u60A8\u5C06\u83B7\u5F97\u4E0A\u8FF0\u5956\u52B1"
+      - "\u0412 \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E\u043C \u0432\u0440\u0430\u0449\u0435\u043D\u0438\u0438
+        \u0432\u044B \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435 \u0432\u044B\u0448\u0435\u0443\u043A\u0430\u0437\u0430\u043D\u043D\u044B\u0435
+        \u043D\u0430\u0433\u0440\u0430\u0434\u044B"
+      - "No giro gr\xE1tis, voc\xEA recebe as recompensas acima"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: JACKPOT TASK
+      TermType: 0
+      Description: 
+      Languages:
+      - Jackpot Task
+      - 
+      - Tugas Jackpot
+      - "\u0E07\u0E32\u0E19\u0E41\u0E08\u0E47\u0E04\u0E1E\u0E2D\u0E15"
+      - "Nhi\u1EC7m V\u1EE5 Jackpot"
+      - Tugas Jackpot
+      - "\u5934\u5956\u4EFB\u52A1"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Kesalahan
+      TermType: 0
+      Description: 
+      Languages:
+      - Error
+      - 
+      - Kesalahan
+      - "\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14"
+      - "L\u1ED7i"
+      - Kesilapan
+      - "\u9519\u8BEF"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Lilita-One
+      TermType: 1
+      Description: 
+      Languages:
+      - Lilita-One
+      - FRAHV
+      - RobloxShop/RobloxFonts/Lilita-One
+      - RobloxShop/RobloxFonts/leelawdb
+      - RobloxShop/RobloxFonts/Buntype - BunaeroPro-BoldUp
+      - RobloxShop/RobloxFonts/Lilita-One
+      - "RobloxShop/RobloxFonts/\u65B9\u6B63\u5927\u9ED1\u7B80\u4F53"
+      - FRAHV
+      - FRAHV
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Loading...
+      TermType: 0
+      Description: 
+      Languages:
+      - Loading...
+      - "\u8AAD\u307F\u8FBC\u307F\u4E2D..."
+      - Memuat...
+      - "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E42\u0E2B\u0E25\u0E14..."
+      - "\u0110ang T\u1EA3i..."
+      - Memuatkan...
+      - "\u52A0\u8F7D..."
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430..."
+      - Carregando...
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Mengeklaim
+      TermType: 0
+      Description: "Y\xEAu c\u1EA7u"
+      Languages:
+      - Tuntutan
+      - 
+      - "\u7D22\u8D54"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Merge 100 max level emoji (45 100)
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Merge 100 max level emoji
+
+        (45/100)'
+      - 
+      - 'Gabungkan 100 emoji level maksimal
+
+        (45/100)'
+      - "\u0E1C\u0E2A\u0E32\u0E19 100 \u0E2D\u0E35\u0E42\u0E21\u0E08\u0E34\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14\n(45/100)"
+      - "H\u1EE3p nh\u1EA5t 100 bi\u1EC3u t\u01B0\u1EE3ng c\u1EA3m x\xFAc c\u1EA5p
+        t\u1ED1i \u0111a\n(45/100)"
+      - 'Gabungkan 100 emoji tahap maks
+
+        (45/100)'
+      - "\u5408\u5E76 100 \u4E2A\u6700\u9AD8\u7EA7\u522B\u7684\u8868\u60C5\u7B26\u53F7\n(45/100)"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Merge 100 times then you will win 1 million Robux!
+      TermType: 0
+      Description: 
+      Languages:
+      - Merge       100 times then you will win 1 million Robux!
+      - 
+      - Gabungkan 100 kali maka Anda akan memenangkan 1 juta Robux!
+      - "\u0E23\u0E27\u0E21 100 \u0E04\u0E23\u0E31\u0E49\u0E07\u0E41\u0E25\u0E49\u0E27\u0E04\u0E38\u0E13\u0E08\u0E30\u0E0A\u0E19\u0E30
+        1 \u0E25\u0E49\u0E32\u0E19 Robux!"
+      - "H\u1EE3p nh\u1EA5t 100 l\u1EA7n th\xEC b\u1EA1n s\u1EBD gi\xE0nh \u0111\u01B0\u1EE3c
+        1 tri\u1EC7u Robux!"
+      - Gabung 100 kali maka anda akan memenangi 1 juta Robux!
+      - "\u5408\u5E76100\u6B21\u5373\u53EF\u83B7\u5F97100\u4E07Robux\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Merge 50 max level emoji
+      TermType: 0
+      Description: 
+      Languages:
+      - Merge 50 max level emoji
+      - 
+      - Gabungkan 50 emoji level maksimal
+      - "\u0E23\u0E27\u0E21\u0E2D\u0E35\u0E42\u0E21\u0E08\u0E34\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14
+        50 \u0E15\u0E31\u0E27"
+      - "H\u1EE3p nh\u1EA5t 50 bi\u1EC3u t\u01B0\u1EE3ng c\u1EA3m x\xFAc c\u1EA5p
+        t\u1ED1i \u0111a"
+      - Gabungkan emoji tahap maksimum 50
+      - "\u5408\u5E76 50 \u4E2A\u6700\u9AD8\u7EA7\u522B\u7684\u8868\u60C5\u7B26\u53F7"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: More Chances
+      TermType: 0
+      Description: 
+      Languages:
+      - More Chances
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: NEW TASK
+      TermType: 0
+      Description: 
+      Languages:
+      - New  Task
+      - 
+      - Tugas Baru
+      - "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E43\u0E2B\u0E21\u0E48"
+      - "Nhi\u1EC7m v\u1EE5 m\u1EDBi"
+      - Tugasan Baru
+      - "\u65B0\u4EFB\u52A1"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: NO,THANKS
+      TermType: 0
+      Description: 
+      Languages:
+      - No,Thanks
+      - 
+      - Tidak, Terima Kasih
+      - "\u0E44\u0E21\u0E48\u0E40\u0E1B\u0E47\u0E19\u0E44\u0E23\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13"
+      - "Kh\xF4ng, c\xE1m \u01A1n"
+      - Tidak, Terima Kasih
+      - "\u4E0D\u7528\u4E86\uFF0C\u8C22\u8C22"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: No Thanks
+      TermType: 0
+      Description: 
+      Languages:
+      - No Thanks
+      - "\u7D50\u69CB\u3067\u3059"
+      - Tidak, Terima Kasih
+      - "\u0E44\u0E21\u0E48\u0E40\u0E1B\u0E47\u0E19\u0E44\u0E23\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13"
+      - "Kh\xF4ng, C\xE1m \u01A0n"
+      - Tidak, Terima Kasih
+      - "\u4E0D\u7528\u4E86\uFF0C\u8C22\u8C22"
+      - "\u041D\u0435\u0442, \u0421\u043F\u0430\u0441\u0438\u0431\u043E"
+      - "N\xE3o, Obrigado"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: No ads right now, please try it later.
+      TermType: 0
+      Description: 
+      Languages:
+      - No ads right now, please try it later.
+      - "\u73FE\u5728\u5E83\u544A\u306F\u3042\u308A\u307E\u305B\u3093\u3002\u5F8C\u3067\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002"
+      - Tidak ada iklan sekarang, silakan coba nanti.
+      - "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E42\u0E06\u0E29\u0E13\u0E32\u0E43\u0E19\u0E02\u0E13\u0E30\u0E19\u0E35\u0E49
+        \u0E42\u0E1B\u0E23\u0E14\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E43\u0E19\u0E20\u0E32\u0E22\u0E2B\u0E25\u0E31\u0E07"
+      - "Kh\xF4ng c\xF3 qu\u1EA3ng c\xE1o ngay b\xE2y gi\u1EDD, vui l\xF2ng th\u1EED
+        n\xF3 sau."
+      - Tiada iklan sekarang, sila cuba kemudian.
+      - "\u76EE\u524D\u6CA1\u6709\u5E7F\u544A\uFF0C\u8BF7\u7A0D\u540E\u518D\u8BD5\u3002"
+      - "\u0412 \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0435\u0435 \u0432\u0440\u0435\u043C\u044F
+        \u043D\u0435\u0442 \u0440\u0435\u043A\u043B\u0430\u043C\u044B, \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u0435
+        \u043F\u043E\u043F\u044B\u0442\u043A\u0443 \u043F\u043E\u0437\u0436\u0435."
+      - "Sem an\xFAncios no momento, tente mais tarde."
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Not enough coins to play, please get more coins!
+      TermType: 0
+      Description: 
+      Languages:
+      - Not enough coins to play, please get more coins!
+      - "\u30D7\u30EC\u30A4\u3059\u308B\u306B\u306F\u30B3\u30A4\u30F3\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002\u3082\u3063\u3068\u30B3\u30A4\u30F3\u3092\u5165\u624B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - Tidak cukup koin untuk diputar, dapatkan lebih banyak koin untuk dimainkan!
+      - "\u0E21\u0E35\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E44\u0E21\u0E48\u0E1E\u0E2D\u0E17\u0E35\u0E48\u0E08\u0E30\u0E40\u0E25\u0E48\u0E19
+        \u0E42\u0E1B\u0E23\u0E14\u0E23\u0E31\u0E1A\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E40\u0E1E\u0E34\u0E48\u0E21!"
+      - "Kh\xF4ng \u0111\u1EE7 xu \u0111\u1EC3 ch\u01A1i, vui l\xF2ng nh\u1EADn th\xEAm
+        xu!"
+      - Syiling tidak mencukupi untuk dimainkan, sila dapatkan lebih banyak syiling!
+      - "\u6CA1\u6709\u8DB3\u591F\u7684\u786C\u5E01\u73A9\uFF0C\u8BF7\u83B7\u5F97\u66F4\u591A\u7684\u786C\u5E01\uFF01"
+      - "\u041D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+        \u043C\u043E\u043D\u0435\u0442 \u0434\u043B\u044F \u0438\u0433\u0440\u044B,
+        \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0435
+        \u0431\u043E\u043B\u044C\u0448\u0435 \u043C\u043E\u043D\u0435\u0442!"
+      - "N\xE3o h\xE1 moedas suficientes para jogar, por favor, pegue mais moedas!"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Not enough coins to spin, get more coins to play!
+      TermType: 0
+      Description: 
+      Languages:
+      - Not enough coins to spin, get more coins to play!
+      - "\u30B9\u30D4\u30F3\u3059\u308B\u306E\u306B\u5341\u5206\u306A\u30B3\u30A4\u30F3\u304C\u3042\u308A\u307E\u305B\u3093\u3002\u3082\u3063\u3068\u30B3\u30A4\u30F3\u3092\u7372\u5F97\u3057\u3066\u30D7\u30EC\u30A4\u3057\u3066\u304F\u3060\u3055\u3044!"
+      - Tidak cukup koin untuk diputar, dapatkan lebih banyak koin untuk dimainkan!
+      - "\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E44\u0E21\u0E48\u0E1E\u0E2D\u0E2B\u0E21\u0E38\u0E19
+        \u0E23\u0E31\u0E1A\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E43\u0E2B\u0E49\u0E40\u0E25\u0E48\u0E19\u0E21\u0E32\u0E01\u0E02\u0E36\u0E49\u0E19!"
+      - "Kh\xF4ng \u0111\u1EE7 xu \u0111\u1EC3 quay, h\xE3y nh\u1EADn th\xEAm xu
+        \u0111\u1EC3 ch\u01A1i!"
+      - Syiling tidak mencukupi untuk berputar, dapatkan lebih banyak syiling untuk
+        dimainkan!
+      - "\u6CA1\u6709\u8DB3\u591F\u7684\u786C\u5E01\u6765\u65CB\u8F6C\uFF0C\u83B7\u5F97\u66F4\u591A\u7684\u786C\u5E01\u6765\u73A9\uFF01"
+      - "\u041D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+        \u043C\u043E\u043D\u0435\u0442 \u0434\u043B\u044F \u0432\u0440\u0430\u0449\u0435\u043D\u0438\u044F,
+        \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0435 \u0431\u043E\u043B\u044C\u0448\u0435
+        \u043C\u043E\u043D\u0435\u0442 \u0434\u043B\u044F \u0438\u0433\u0440\u044B!"
+      - "N\xE3o h\xE1 moedas suficientes para girar, pegue mais moedas para jogar!"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: OK
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - 
+      - Oke
+      - "\u0E15\u0E01\u0E25\u0E07"
+      - "V\xC2NG"
+      - Okey
+      - "\u597D\u7684"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: One...
+      TermType: 0
+      Description: 
+      Languages:
+      - One...
+      - 
+      - Satu...
+      - "\u0E2B\u0E19\u0E36\u0E48\u0E07..."
+      - "M\u1ED9t..."
+      - Satu...
+      - "\u4E00..."
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Opps!
+      TermType: 0
+      Description: 
+      Languages:
+      - Opps!
+      - 
+      - Ups!
+      - "\u0E2D\u0E4A\u0E30!"
+      - "C\xE1c Anh!"
+      - Opps!
+      - "\u54CE\u5440\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Play
+      TermType: 0
+      Description: 
+      Languages:
+      - Play
+      - 
+      - Memainkan
+      - "\u0E40\u0E25\u0E48\u0E19"
+      - "Ch\u01A1i"
+      - Bermain
+      - "\u73A9"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Play game and collect skin pieces
+      TermType: 0
+      Description: 
+      Languages:
+      - Play game and collect skin pieces
+      - 
+      - Mainkan game dan kumpulkan potongan kulit
+      - "\u0E40\u0E25\u0E48\u0E19\u0E40\u0E01\u0E21\u0E41\u0E25\u0E30\u0E23\u0E27\u0E1A\u0E23\u0E27\u0E21\u0E0A\u0E34\u0E49\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E1C\u0E34\u0E27"
+      - "Ch\u01A1i tr\xF2 ch\u01A1i v\xE0 thu th\u1EADp c\xE1c m\u1EA3nh da"
+      - Main permainan dan kumpulkan kepingan kulit
+      - "\u73A9\u6E38\u620F\u5E76\u6536\u96C6\u76AE\u80A4\u788E\u7247"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please Enter your Roblox ID.
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Please Enter your Roblox ID.'
+      - 
+      - ' Silakan Masukkan ID Dana Anda.'
+      - " \u0E01\u0E23\u0E38\u0E13\u0E32\u0E43\u0E2A\u0E48\u0E23\u0E2B\u0E31\u0E2A
+        Roblox \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13"
+      - " Vui l\xF2ng nh\u1EADp ID Roblox c\u1EE7a b\u1EA1n."
+      - ' Sila Masukkan ID Roblox anda.'
+      - " \u8BF7\u8F93\u5165\u60A8\u7684 Roblox ID\u3002"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please Re-enter The ID.
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Please Re-enter The ID.'
+      - 
+      - ' Silakan masukkan kembali ID.'
+      - " \u0E01\u0E23\u0E38\u0E13\u0E32\u0E01\u0E23\u0E2D\u0E01 ID \u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07"
+      - " Vui l\xF2ng nh\u1EADp l\u1EA1i ID."
+      - ' Sila masukkan Semula ID.'
+      - " \u8BF7\u91CD\u65B0\u8F93\u5165 ID\u3002"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please Re-enter the ID
+      TermType: 0
+      Description: 
+      Languages:
+      - '      Please Re-enter the ID'
+      - 
+      - '      Silakan masukkan ID lagi'
+      - "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E1A\u0E31\u0E15\u0E23\u0E1B\u0E23\u0E30\u0E08\u0E33\u0E15\u0E31\u0E27\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07"
+      - "      Vui l\xF2ng nh\u1EADp l\u1EA1i ID"
+      - '      Sila masukkan semula kad ID anda'
+      - "      \u8BF7\u91CD\u65B0\u8F93\u5165\u8EAB\u4EFD\u8BC1"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please enter your Account ID
+      TermType: 0
+      Description: 
+      Languages:
+      - '      Please enter your Account ID'
+      - 
+      - '      Silakan masukkan ID Akun Anda'
+      - "\u0E42\u0E1B\u0E23\u0E14\u0E1B\u0E49\u0E2D\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13"
+      - "      Vui l\xF2ng nh\u1EADp id c\u1EE7a b\u1EA1n"
+      - '      Sila masukkan ID Akaun anda'
+      - "      \u8BF7\u8F93\u5165\u60A8\u7684\u5E10\u53F7"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please wait a few days for your gift
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Please wait 7-14 days
+
+        for your gift'
+      - 
+      - 'Harap tunggu beberapa hari
+
+        untuk hadiahmu'
+      - "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E23\u0E2D\u0E2A\u0E2D\u0E07\u0E2A\u0E32\u0E21\u0E27\u0E31\u0E19\n\u0E43\u0E2B\u0E49\u0E02\u0E2D\u0E07\u0E02\u0E27\u0E31\u0E0D\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E01\u0E33\u0E25\u0E31\u0E07\u0E08\u0E30\u0E21\u0E32\u0E16\u0E36\u0E07"
+      - "Xin vui l\xF2ng \u0111\u1EE3i m\u1ED9t v\xE0i ng\xE0y\nM\xF3n qu\xE0 c\u1EE7a
+        b\u1EA1n s\u1EBD \u0111\u1EBFn"
+      - 'Sila tunggu beberapa hari
+
+        Hadiah anda akan tiba'
+      - "\u8BF7\u7B49\u51E0\u5929\n\u7ED9\u4F60\u7684\u793C\u7269"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Props
+      TermType: 0
+      Description: 
+      Languages:
+      - Props
+      - 
+      - Atribut
+      - "\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E40\u0E2A\u0E23\u0E34\u0E21 "
+      - "\u0110\u1EA1o c\u1EE5"
+      - Props.
+      - "\u9053\u5177"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: RATE US
+      TermType: 0
+      Description: 
+      Languages:
+      - Rate Us
+      - 
+      - Menilai Kami
+      - "\u0E43\u0E2B\u0E49\u0E04\u0E30\u0E41\u0E19\u0E19\u0E40\u0E23\u0E32"
+      - "\u0110"
+      - Nilaikan Kami
+      - "\u8BC4\u4EF7\u6211\u4EEC"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: RESTART
+      TermType: 0
+      Description: 
+      Languages:
+      - Restart
+      - 
+      - Mengulang Kembali
+      - "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E43\u0E2B\u0E21\u0E48"
+      - "Kh\u1EDFi \u0110\u1ED9ng L\u1EA1i"
+      - Mula Semula
+      - "\u91CD\u65B0\u5F00\u59CB"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Restart
+      TermType: 0
+      Description: 
+      Languages:
+      - Restart
+      - 
+      - Mulakan
+      - "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E43\u0E2B\u0E21\u0E48"
+      - "Kh\u1EDFi \u0110\u1ED9ng L\u1EA1i"
+      - Mula Semula
+      - "\u91CD\u65B0\u5F00\u59CB"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Reward
+      - 
+      - Menukarkan
+      - "\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25"
+      - " Ph\u1EA7n th\u01B0\u1EDFng"
+      - Ganjaran
+      - "\u5956\u52B1"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: SETTING
+      TermType: 0
+      Description: 
+      Languages:
+      - Setting
+      - "\u8A2D\u5B9A"
+      - Pengaturan
+      - "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32"
+      - "C\xE0i \u0110\u1EB7t"
+      - Tetapan
+      - "\u8BBE\u7F6E"
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430"
+      - "Configura\xE7\xE3o"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Select 3 Characters
+      TermType: 0
+      Description: 
+      Languages:
+      - Select 3 Characters
+      - 
+      - Pilih 3 jenis hadiah
+      - "\u0E40\u0E25\u0E37\u0E2D\u0E01 3 \u0E0A\u0E19\u0E34\u0E14\u0E02\u0E2D\u0E07\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25"
+      - "Ch\u1ECDn 3 lo\u1EA1i ph\u1EA7n th\u01B0\u1EDFng"
+      - Pilih 3 jenis ganjaran
+      - "\u9009\u62E93\u79CD\u5956\u52B1"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Slot Game
+      TermType: 0
+      Description: 
+      Languages:
+      - Slot Game
+      - 
+      - Permainan Slot
+      - "\u0E40\u0E01\u0E21\u0E2A\u0E25\u0E47\u0E2D\u0E15"
+      - "Tr\xF2 Ch\u01A1i X\xE8ng"
+      - Permainan Slot
+      - "\u8001\u864E\u673A\u6E38\u620F"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Start from beginning
+      TermType: 0
+      Description: 
+      Languages:
+      - Start from beginning
+      - 
+      - Mulai dari awal
+      - "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E08\u0E32\u0E01\u0E08\u0E38\u0E14\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19"
+      - "B\u1EAFt \u0111\u1EA7u t\u1EEB \u0111\u1EA7u"
+      - Mulakan dari awal
+      - "\u4ECE\u5934\u5F00\u59CB"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Stop
+      TermType: 0
+      Description: 
+      Languages:
+      - Stop
+      - 
+      - Berhenti
+      - "\u0E2B\u0E22\u0E38\u0E14"
+      - "Ng\u1EEBng L\u1EA1i"
+      - Berhenti
+      - "\u505C\u6B62"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Submit
+      TermType: 0
+      Description: 
+      Languages:
+      - Submit
+      - "\u9001\u4FE1"
+      - Kirimkan
+      - "\u0E2A\u0E48\u0E07"
+      - "G\u1EEDi \u0111i"
+      - Serahkan
+      - "\u63D0\u4EA4"
+      - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C"
+      - Submeter
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Switch
+      TermType: 5
+      Description: 
+      Languages:
+      - Switch
+      - 
+      - Malay+Indonesian
+      - Thai
+      - Vietnamese
+      - Malay+Indonesian
+      - Switch
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: TARGET NOT REACHED
+      TermType: 0
+      Description: 
+      Languages:
+      - Target Not Reached
+      - 
+      - Target Tidak Tercapai
+      - "\u0E44\u0E21\u0E48\u0E16\u0E36\u0E07\u0E40\u0E1B\u0E49\u0E32\u0E2B\u0E21\u0E32\u0E22"
+      - "M\u1EE5c ti\xEAu kh\xF4ng \u0111\u1EA1t \u0111\u01B0\u1EE3c"
+      - Sasaran Tidak Tercapai
+      - "\u76EE\u6807\u672A\u8FBE\u5230"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: THE RULES
+      TermType: 0
+      Description: 
+      Languages:
+      - The Rules
+      - 
+      - Aturan
+      - "\u0E01\u0E0E"
+      - "Quy t\u1EAFc"
+      - Peraturan
+      - "\u89C4\u5219"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Tap to drop the emoji down
+      TermType: 0
+      Description: 
+      Languages:
+      - Tap to drop the emoji down
+      - 
+      - Ketuk untuk menjatuhkan emoji
+      - "\u0E41\u0E15\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E27\u0E32\u0E07\u0E2D\u0E35\u0E42\u0E21\u0E08\u0E34\u0E25\u0E07"
+      - "Nh\u1EA5n \u0111\u1EC3 th\u1EA3 bi\u1EC3u t\u01B0\u1EE3ng c\u1EA3m x\xFAc
+        xu\u1ED1ng"
+      - Ketik untuk melepaskan emoji ke bawah
+      - "\u70B9\u6309\u4EE5\u653E\u4E0B\u8868\u60C5\u7B26\u53F7"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: The chance of getting these Characters will be increased!!!
+      TermType: 0
+      Description: 
+      Languages:
+      - The chance of getting these Characters will be increased
+      - 
+      - Peluang untuk hadiah ini akan meningkat
+      - "\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E08\u0E30\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E02\u0E36\u0E49\u0E19"
+      - "C\xE1c c\u01A1 h\u1ED9i cho nh\u1EEFng ph\u1EA7n th\u01B0\u1EDFng n\xE0y
+        s\u1EBD t\u0103ng l\xEAn"
+      - Peluang untuk ganjaran ini akan meningkat
+      - "\u8FD9\u4E9B\u5956\u52B1\u7684\u83B7\u5F97\u673A\u4F1A\u5C06\u4F1A\u589E\u52A0"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: The two entered ID do not match.
+      TermType: 0
+      Description: 
+      Languages:
+      - ' The two entered ID do not match.'
+      - 
+      - ' ID input berbeda.'
+      - " ID \u0E2D\u0E34\u0E19\u0E1E\u0E38\u0E15\u0E41\u0E15\u0E01\u0E15\u0E48\u0E32\u0E07\u0E01\u0E31\u0E19"
+      - " ID \u0111\u1EA7u v\xE0o l\xE0 kh\xE1c nhau."
+      - ' ID input adalah berbeza.'
+      - " \u8F93\u5165\u7684 ID \u4E0D\u76F8\u540C\u3002"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: This task is not finished
+      TermType: 0
+      Description: 
+      Languages:
+      - This task is not finished
+      - 
+      - Tugas ini belum selesai
+      - "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E34\u0E49\u0E19"
+      - "Nhi\u1EC7m v\u1EE5 n\xE0y ch\u01B0a \u0111\u01B0\u1EE3c ho\xE0n th\xE0nh"
+      - Tugasan ini belum selesai
+      - "\u8FD9\u4E2A\u4EFB\u52A1\u8FD8\u6CA1\u6709\u5B8C\u6210"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: TishiAndrooid
+      TermType: 5
+      Description: 
+      Languages:
+      - English
+      - 
+      - newtihsi
+      - Thai
+      - Vietnamese
+      - Malay
+      - English
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Try to get BIGGER emoji to get great rewards!
+      TermType: 0
+      Description: 
+      Languages:
+      - Try to get BIGGER emoji to get great rewards!
+      - 
+      - Cobalah untuk mendapatkan emoji LEBIH BESAR untuk mendapatkan hadiah menarik!
+      - "\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E23\u0E31\u0E1A\u0E2D\u0E34\u0E42\u0E21\u0E08\u0E34\u0E17\u0E35\u0E48\u0E43\u0E2B\u0E0D\u0E48\u0E01\u0E27\u0E48\u0E32\n\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E31\u0E1A\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E21\u0E32\u0E01\u0E21\u0E32\u0E22!"
+      - "C\u1ED1 g\u1EAFng t\u1EA3i bi\u1EC3u t\u01B0\u1EE3ng c\u1EA3m x\xFAc L\u1EDAN
+        H\u01A0N \u0111\u1EC3 nh\u1EADn \u0111\u01B0\u1EE3c ph\u1EA7n th\u01B0\u1EDFng
+        l\u1EDBn!"
+      - Cuba dapatkan emoji LEBIH BESAR untuk mendapatkan ganjaran yang hebat!
+      - "\u5C1D\u8BD5\u83B7\u5F97\u66F4\u5927\u7684\u8868\u60C5\u7B26\u53F7\u4EE5\u83B7\u5F97\u4E30\u539A\u7684\u5956\u52B1\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Try to merge two same emoji
+      TermType: 0
+      Description: 
+      Languages:
+      - Try to merge two same emoji
+      - 
+      - Coba gabungkan dua emoji yang sama
+      - "\u0E25\u0E2D\u0E07\u0E23\u0E27\u0E21\u0E2A\u0E2D\u0E07\u0E2D\u0E35\u0E42\u0E21\u0E08\u0E34\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E19"
+      - "C\u1ED1 g\u1EAFng h\u1EE3p nh\u1EA5t hai bi\u1EC3u t\u01B0\u1EE3ng c\u1EA3m
+        x\xFAc gi\u1ED1ng nhau"
+      - Cuba gabungkan dua emoji yang sama
+      - "\u5C1D\u8BD5\u5408\u5E76\u4E24\u4E2A\u76F8\u540C\u7684\u8868\u60C5\u7B26\u53F7"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Use diamond and gold to claim
+      TermType: 0
+      Description: 
+      Languages:
+      - Use diamond and gold to claim
+      - 
+      - Gunakan berlian dan emas untuk ditukar
+      - "\u0E43\u0E0A\u0E49\u0E40\u0E1E\u0E0A\u0E23\u0E41\u0E25\u0E30\u0E17\u0E2D\u0E07\u0E04\u0E33\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19"
+      - "S\u1EED d\u1EE5ng kim c\u01B0\u01A1ng v\xE0 v\xE0ng \u0111\u1EC3 trao \u0111\u1ED5i"
+      - Gunakan berlian dan emas untuk bertukar
+      - "\u4F7F\u7528\u94BB\u77F3\u548C\u9EC4\u91D1\u6765\u4EA4\u6362"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Watch Moive
+      TermType: 0
+      Description: 
+      Languages:
+      - Watch Moive
+      - 
+      - Menonton Film
+      - "\u0E14\u0E39\u0E20\u0E32\u0E1E\u0E22\u0E19\u0E15\u0E23\u0E4C"
+      - Xem Moive
+      - Menonton Moive
+      - "\u770B\u7535\u5F71"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Watch rewarded video 100 times
+      TermType: 0
+      Description: 
+      Languages:
+      - Watch rewarded video 100 times
+      - 
+      - Tonton video berhadiah 100 kali
+      - "\u0E14\u0E39\u0E27\u0E34\u0E14\u0E35\u0E42\u0E2D\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25
+        100 \u0E04\u0E23\u0E31\u0E49\u0E07"
+      - "Xem video ph\u1EA7n th\u01B0\u1EDFng 100 l\u1EA7n"
+      - Tonton video ganjaran 100 kali
+      - "\u89C2\u770B\u5956\u52B1\u89C6\u9891 100 \u6B21"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: You can start from
+      TermType: 0
+      Description: 
+      Languages:
+      - You can start from
+      - 
+      - Anda bisa mulai dari
+      - "\u0E04\u0E38\u0E13\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E08\u0E32\u0E01"
+      - "B\u1EA1n c\xF3 th\u1EC3 b\u1EAFt \u0111\u1EA7u t\u1EEB"
+      - Anda boleh mula dari
+      - "\u4F60\u53EF\u4EE5\u4ECE"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: You don't have enough coins.
+      TermType: 0
+      Description: 
+      Languages:
+      - You don't have enough coins.
+      - 
+      - Anda tidak memiliki cukup koin.
+      - "\u0E04\u0E38\u0E13\u0E21\u0E35\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E44\u0E21\u0E48\u0E1E\u0E2D"
+      - "B\u1EA1n kh\xF4ng c\xF3 \u0111\u1EE7 ti\u1EC1n."
+      - Anda tidak mempunyai cukup syiling.
+      - "\u4F60\u6CA1\u6709\u8DB3\u591F\u7684\u786C\u5E01\u3002"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: You have enough coins, try to get more rewards in the slot machine!
+      TermType: 0
+      Description: 
+      Languages:
+      - You have enough coins, try to get more rewards in the slot machine!
+      - 
+      - Anda memiliki cukup koin, cobalah untuk mendapatkan lebih banyak hadiah di
+        mesin slot!
+      - "\u0E04\u0E38\u0E13\u0E21\u0E35\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E1E\u0E2D
+        \u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E23\u0E31\u0E1A\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E21\u0E32\u0E01\u0E02\u0E36\u0E49\u0E19\u0E43\u0E19\u0E2A\u0E25\u0E47\u0E2D\u0E15\u0E41\u0E21\u0E0A\u0E0A\u0E35\u0E19!"
+      - "B\u1EA1n c\xF3 \u0111\u1EE7 xu, h\xE3y c\u1ED1 g\u1EAFng nh\u1EADn th\xEAm
+        ph\u1EA7n th\u01B0\u1EDFng trong m\xE1y \u0111\xE1nh b\u1EA1c!"
+      - Anda mempunyai syiling yang mencukupi, cuba dapatkan lebih banyak ganjaran
+        dalam mesin slot!
+      - "\u60A8\u6709\u8DB3\u591F\u7684\u786C\u5E01\uFF0C\u5C1D\u8BD5\u5728\u8001\u864E\u673A\u4E2D\u83B7\u5F97\u66F4\u591A\u5956\u52B1\uFF01"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: You have reached
+      TermType: 0
+      Description: 
+      Languages:
+      - You have reached
+      - 
+      - Kamu telah mencapai
+      - "\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E21\u0E32\u0E16\u0E36\u0E07"
+      - "B\u1EA1n \u0111\xE3 \u0111\u1EA1t \u0111\u1EBFn"
+      - Anda telah mencapai
+      - "\u4F60\u5DF2\u7ECF\u8FBE\u5230\u4E86"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: You still have some tokens are you sure to give up them?
+      TermType: 0
+      Description: 
+      Languages:
+      - "You still have some tokens\uFF0C\nare you sure to give up them?"
+      - 
+      - 'Anda masih memiliki beberapa token,
+
+        Apakah Anda yakin untuk menjatuhkan
+        mereka?'
+      - "\u0E04\u0E38\u0E13\u0E22\u0E31\u0E07\u0E21\u0E35\u0E42\u0E17\u0E40\u0E04\u0E47\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E1A\u0E49\u0E32\u0E07\uFF0C\n\u0E04\u0E38\u0E13\u0E41\u0E19\u0E48\u0E43\u0E08\u0E27\u0E48\u0E32\u0E08\u0E30\u0E22\u0E2D\u0E21\u0E41\u0E1E\u0E49?"
+      - "B\u1EA1n v\u1EABn c\xF2n m\u1ED9t s\u1ED1 m\xE3 th\xF4ng b\xE1o \uFF0C\nb\u1EA1n
+        c\xF3 ch\u1EAFc ch\u1EAFn t\u1EEB b\u1ECF ch\xFAng kh\xF4ng?"
+      - 'Anda masih mempunyai beberapa token,
+
+        adakah anda pasti melepaskan
+        mereka?'
+      - "\u4F60\u8FD8\u6709\u4E00\u4E9B\u4EE3\u5E01\uFF0C\n\u4F60\u786E\u5B9A\u8981\u653E\u5F03\u4ED6\u4EEC\u5417\uFF1F"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Your coin is not insufficient
+      TermType: 0
+      Description: 
+      Languages:
+      - Your coin is not insufficient
+      - 
+      - Koin Anda tidak cukup
+      - "\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E1E\u0E2D"
+      - "\u0110\u1ED3ng xu c\u1EE7a b\u1EA1n l\xE0 kh\xF4ng \u0111\u1EE7"
+      - Duit syiling anda tidak mencukupi
+      - "\u4F60\u7684\u786C\u5E01\u4E0D\u591F\u7528"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Your token is not insufficient
+      TermType: 0
+      Description: 
+      Languages:
+      - Your token is not insufficient
+      - 
+      - Token Anda tidak cukup
+      - "\u0E42\u0E17\u0E40\u0E04\u0E47\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E1E\u0E2D"
+      - "M\xE3 th\xF4ng b\xE1o c\u1EE7a b\u1EA1n l\xE0 kh\xF4ng \u0111\u1EE7"
+      - Token anda tidak mencukupi
+      - "\u4F60\u7684token\u4E0D\u591F"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: id...
+      TermType: 0
+      Description: 
+      Languages:
+      - id...
+      - 
+      - pengenal...
+      - id ...
+      - "T\xD4I ..."
+      - ID...
+      - ID...
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: leelawdb
+      TermType: 1
+      Description: 
+      Languages:
+      - BRLNSDB
+      - 
+      - BRLNSR
+      - leelawdb
+      - Buntype - BunaeroPro-BoldUp
+      - BRLNSR
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: merge times to get rewards
+      TermType: 0
+      Description: 
+      Languages:
+      - merge {[merge_task_time]}  times to get rewards
+      - 
+      - gabungkan {[merge_task_time]} kali untuk mendapatkan hadiah
+      - "\u0E23\u0E27\u0E21 {[merge_task_time]} \u0E04\u0E23\u0E31\u0E49\u0E07\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E31\u0E1A\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25"
+      - "h\u1EE3p nh\u1EA5t {[merge_task_time]} th\u1EDDi gian \u0111\u1EC3 nh\u1EADn
+        ph\u1EA7n th\u01B0\u1EDFng"
+      - bergabung {[merge_task_time]} masa untuk mendapatkan ganjaran
+      - "\u5408\u5E76{[merge_task_time]}\u6B21\u83B7\u5F97\u5956\u52B1"
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: "\xE1nh Gi\xE1"
+      TermType: 0
+      Description: "\u8BC4\u4EF7\u6211\u4EEC"
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: 'Address:'
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Address:'
+      - "\u4F4F\u6240\uFF1A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0410\u0434\u0440\u0435\u0441:"
+      - "Endere\xE7o:"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: All rewards will be redeemable after the countdown ends
+      TermType: 0
+      Description: 
+      Languages:
+      - All rewards will be redeemable after the countdown ends
+      - "\u3059\u3079\u3066\u306E\u5831\u916C\u306F\u30AB\u30A6\u30F3\u30C8\u30C0\u30A6\u30F3\u7D42\u4E86\u5F8C\u306B\u5F15\u304D\u63DB\u3048\u53EF\u80FD\u306B\u306A\u308A\u307E\u3059"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u0441\u0435 \u043D\u0430\u0433\u0440\u0430\u0434\u044B \u043C\u043E\u0436\u043D\u043E
+        \u0431\u0443\u0434\u0435\u0442 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+        \u043F\u043E\u0441\u043B\u0435 \u043E\u043A\u043E\u043D\u0447\u0430\u043D\u0438\u044F
+        \u043E\u0431\u0440\u0430\u0442\u043D\u043E\u0433\u043E \u043E\u0442\u0441\u0447\u0435\u0442\u0430."
+      - "Todas as recompensas ser\xE3o resgat\xE1veis \u200B\u200Bap\xF3s o t\xE9rmino
+        da contagem regressiva"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Amazon is not enough
+      TermType: 0
+      Description: 
+      Languages:
+      - amazon  is not enough
+      - "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u3067\u306F\u5341\u5206\u3067\u306F\u3042\u308A\u307E\u305B\u3093"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0431\u0440\u0438\u043B\u043B\u0438\u0430\u043D\u0442\u0430 \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E"
+      - "diamante n\xE3o \xE9 suficiente"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Approving
+      TermType: 0
+      Description: 
+      Languages:
+      - Approving
+      - "\u627F\u8A8D\u3059\u308B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041E\u0434\u043E\u0431\u0440\u044F\u044E\u0449\u0438\u0439"
+      - Aprovando
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Arial
+      TermType: 1
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041E\u0442\u043C\u0435\u043D\u0430"
+      - Cancelar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Cash Out
+      TermType: 0
+      Description: 
+      Languages:
+      - Cash Out
+      - "\u73FE\u91D1\u5316\u3059\u308B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041E\u0431\u043D\u0430\u043B\u0438\u0447\u0438\u0442\u044C"
+      - Sacar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Cash is not enough
+      TermType: 0
+      Description: 
+      Languages:
+      - Cash is not enough
+      - "\u304A\u91D1\u304C\u8DB3\u308A\u306A\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0414\u0435\u043D\u0435\u0433 \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442"
+      - "Dinheiro n\xE3o \xE9 suficiente"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: CashOut
+      TermType: 0
+      Description: 
+      Languages:
+      - CashOut
+      - "\u73FE\u91D1\u5316\u3059\u308B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041E\u0431\u043D\u0430\u043B\u0438\u0447\u0438\u0442\u044C"
+      - Sacar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Collection completed
+      TermType: 0
+      Description: 
+      Languages:
+      - Collection completed
+      - "\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3\u304C\u5B8C\u4E86\u3057\u307E\u3057\u305F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0430"
+      - "Cole\xE7\xE3o conclu\xEDda"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Confirm
+      TermType: 0
+      Description: 
+      Languages:
+      - Confirm
+      - "\u78BA\u8A8D"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0442\u044C"
+      - Confirme
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Details
+      TermType: 0
+      Description: 
+      Languages:
+      - Details
+      - "\u8A73\u7D30"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438"
+      - Detalhes
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Fever time
+      TermType: 0
+      Description: 
+      Languages:
+      - Fever time
+      - "\u30D5\u30A3\u30FC\u30D0\u30FC\u30BF\u30A4\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u0440\u0435\u043C\u044F \u043B\u0438\u0445\u043E\u0440\u0430\u0434\u043A\u0438"
+      - tempo de febre
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Get Reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Get Reward
+      - "\u5831\u916C\u3092\u53D7\u3051\u308B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0412\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u0435"
+      - Obter Recompensa
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Get more reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Get more reward
+      - "\u3088\u308A\u591A\u304F\u306E\u5831\u916C\u3092\u7372\u5F97"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u0435 \u0431\u043E\u043B\u044C\u0448\u0435
+        \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u044F"
+      - Obter mais recompensa
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Gold is not enough
+      TermType: 0
+      Description: 
+      Languages:
+      - Gold is not enough
+      - "\u30B4\u30FC\u30EB\u30C9\u304C\u8DB3\u308A\u306A\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0417\u043E\u043B\u043E\u0442\u0430 \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442"
+      - "Ouro n\xE3o \xE9 suficiente"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Golden Piggy Not Full
+      TermType: 0
+      Description: 
+      Languages:
+      - Golden Piggy Not Full
+      - "\u30B4\u30FC\u30EB\u30C7\u30F3\u30D4\u30AE\u30FC\u304C\u3044\u3063\u3071\u3044\u3067\u306F\u3042\u308A\u307E\u305B\u3093"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0417\u043E\u043B\u043E\u0442\u0430\u044F \u0421\u0432\u0438\u043D\u043A\u0430
+        \u041D\u0435 \u041F\u043E\u043B\u043D\u0430\u044F"
+      - "Porquinho Dourado N\xE3o Est\xE1 Cheio"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: If you have any opinions please let us know
+      TermType: 0
+      Description: 
+      Languages:
+      - "If you have any opinions \nplease let us know"
+      - "\u3054\u610F\u898B\u304C\u3054\u3056\u3044\u307E\u3057\u305F\u3089\n\u304A\u77E5\u3089\u305B\u304F\u3060\u3055\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0415\u0441\u043B\u0438 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044C
+        \u043A\u0430\u043A\u0438\u0435-\u043B\u0438\u0431\u043E \u043C\u043D\u0435\u043D\u0438\u044F\n\u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430
+        \u0434\u0430\u0439 \u043D\u0430\u043C \u0437\u043D\u0430\u0442\u044C"
+      - "Se voc\xEA tem qualquer opini\xE3o\nPor favor nos informe"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Instructions
+      TermType: 0
+      Description: 
+      Languages:
+      - Instructions
+      - "\u6307\u793A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0418\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438"
+      - "Instru\xE7\xF5es"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: InstructionsDetial
+      TermType: 0
+      Description: 
+      Languages:
+      - 'your rewards will be sent to your with in 3~15 business days [weekends not
+        included].
+
+
+        The merchants representend are not sponsors of the rewards
+        or otherwise affiliated with this company.
+
+
+        Tha longs and other
+        identifying marks attcahed are trademarks of and owned by each represented
+        company and/or its affiliates.
+
+
+        please visit each company''s website
+        for additional terms and conditions.'
+      - "\u7279\u5178\u306F 3 \uFF5E 15 \u55B6\u696D\u65E5\u4EE5\u5185\u306B\u767A\u9001\u3055\u308C\u307E\u3059
+        (\u9031\u672B\u306F\u542B\u307E\u308C\u307E\u305B\u3093)\u3002\n\n\u6CE8\u76EE\u306E\u8CA9\u58F2\u8005\u306F\u3001\u8CDE\u306E\u30B9\u30DD\u30F3\u30B5\u30FC\u3067\u306F\u306A\u304F\u3001\u307E\u305F\u3053\u306E\u4F1A\u793E\u3068\u306E\u63D0\u643A\u95A2\u4FC2\u3082\u3042\u308A\u307E\u305B\u3093\u3002\n\n\u6307\u5B9A\u304A\u3088\u3073\u305D\u306E\u4ED6\u306E\u8B58\u5225\u30DE\u30FC\u30AF\u306F\u3001\u4EE3\u8868\u3055\u308C\u308B\u5404\u4F1A\u793E\u304A\u3088\u3073/\u307E\u305F\u306F\u305D\u306E\u95A2\u9023\u4F1A\u793E\u306E\u5546\u6A19\u3067\u3059\u3002\n\n\u8FFD\u52A0\u306E\u5229\u7528\u898F\u7D04\u306B\u3064\u3044\u3066\u306F\u3001\u5404\u4F01\u696D\u306E
+        Web \u30B5\u30A4\u30C8\u3092\u3054\u89A7\u304F\u3060\u3055\u3044\u3002"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0432\u0430\u0448\u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u044B \u0431\u0443\u0434\u0443\u0442
+        \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0432\u0430\u043C
+        \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0435 3-15 \u0440\u0430\u0431\u043E\u0447\u0438\u0445
+        \u0434\u043D\u0435\u0439 [\u0432\u044B\u0445\u043E\u0434\u043D\u044B\u0435
+        \u043D\u0435 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u044B].\n\n\u041F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0435
+        \u043F\u0440\u043E\u0434\u0430\u0432\u0446\u044B \u043D\u0435 \u044F\u0432\u043B\u044F\u044E\u0442\u0441\u044F
+        \u0441\u043F\u043E\u043D\u0441\u043E\u0440\u0430\u043C\u0438 \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u0439
+        \u0438\u043B\u0438 \u0438\u043D\u044B\u043C \u043E\u0431\u0440\u0430\u0437\u043E\u043C
+        \u0441\u0432\u044F\u0437\u0430\u043D\u044B \u0441 \u044D\u0442\u043E\u0439
+        \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0435\u0439.\n\n\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F
+        \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0438\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435
+        \u0437\u043D\u0430\u043A\u0438 \u044F\u0432\u043B\u044F\u044E\u0442\u0441\u044F
+        \u0442\u043E\u0432\u0430\u0440\u043D\u044B\u043C\u0438 \u0437\u043D\u0430\u043A\u0430\u043C\u0438
+        \u0438 \u043F\u0440\u0438\u043D\u0430\u0434\u043B\u0435\u0436\u0430\u0442
+        \u043A\u0430\u0436\u0434\u043E\u0439 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u043C\u043E\u0439
+        \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \u0438/\u0438\u043B\u0438
+        \u0435\u0435 \u0430\u0444\u0444\u0438\u043B\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u043C
+        \u043B\u0438\u0446\u0430\u043C.\n\n\u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+        \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435 \u0432\u0435\u0431-\u0441\u0430\u0439\u0442
+        \u043A\u0430\u0436\u0434\u043E\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438
+        \u0434\u043B\u044F \u043E\u0437\u043D\u0430\u043A\u043E\u043C\u043B\u0435\u043D\u0438\u044F
+        \u0441 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u043C\u0438
+        \u0443\u0441\u043B\u043E\u0432\u0438\u044F\u043C\u0438."
+      - "suas recompensas ser\xE3o enviadas para voc\xEA em 3 a 15 dias \xFAteis
+        [fins de semana n\xE3o inclu\xEDdos].\n\nOs representantes dos comerciantes
+        n\xE3o s\xE3o patrocinadores das recompensas ou de outra forma afiliados
+        a esta empresa.\n\nOs longos e outras marcas de identifica\xE7\xE3o anexadas
+        s\xE3o marcas registradas e de propriedade de cada empresa representada e/ou
+        suas afiliadas.\n\nvisite o site de cada empresa para obter os termos e condi\xE7\xF5es
+        adicionais."
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Keep playing to redeem more!
+      TermType: 0
+      Description: 
+      Languages:
+      - Keep playing to redeem more!
+      - "\u30D7\u30EC\u30A4\u3092\u7D9A\u3051\u3066\u3055\u3089\u306B\u7372\u5F97\u3057\u307E\u3057\u3087\u3046\uFF01"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439\u0442\u0435 \u0438\u0433\u0440\u0430\u0442\u044C,
+        \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C
+        \u0431\u043E\u043B\u044C\u0448\u0435!"
+      - Continue jogando para resgatar mais!
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Later
+      TermType: 0
+      Description: 
+      Languages:
+      - Later
+      - "\u5F8C\u3067"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0437\u0436\u0435"
+      - Mais Tarde
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: LuckiestGuy-Regular
+      TermType: 1
+      Description: 
+      Languages:
+      - LuckiestGuy-Regular
+      - FRAHV
+      - 
+      - 
+      - 
+      - 
+      - 
+      - FRAHV
+      - FRAHV
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: MORE REWARD
+      TermType: 0
+      Description: 
+      Languages:
+      - More Reward
+      - "\u3055\u3089\u306A\u308B\u5831\u916C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0411\u043E\u043B\u044C\u0448\u0435 \u041D\u0430\u0433\u0440\u0430\u0434\u044B"
+      - Mais Recompensa
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: 'Name:'
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Name:'
+      - "\u540D\u524D\uFF1A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0418\u043C\u044F:"
+      - 'Nome:'
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: NewStep_1
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Tap the blank to drop balls
+
+
+        Move around to decide the places where
+        the balls are supposed to fall'
+      - "\u7A7A\u3044\u3066\u3044\u308B\u5834\u6240\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u30DC\u30FC\u30EB\u3092\u30C9\u30ED\u30C3\u30D7\u3057\u307E\u3059\n\n\u52D5\u304D\u56DE\u3063\u3066\u30DC\u30FC\u30EB\u3092\u3069\u3053\u306B\u7740\u5730\u3055\u305B\u308B\u304B\u3092\u6C7A\u5B9A\u3057\u307E\u3059\u3002"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u043F\u0443\u0441\u0442\u043E\u0435
+        \u043C\u0435\u0441\u0442\u043E, \u0447\u0442\u043E\u0431\u044B \u0431\u0440\u043E\u0441\u0438\u0442\u044C
+        \u0448\u0430\u0440\u044B\n\n\u0414\u0432\u0438\u0433\u0430\u0439\u0442\u0435\u0441\u044C,
+        \u0447\u0442\u043E\u0431\u044B \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0438\u0442\u044C
+        \u043C\u0435\u0441\u0442\u0430, \u043A\u0443\u0434\u0430 \u0434\u043E\u043B\u0436\u043D\u044B
+        \u043F\u0440\u0438\u0437\u0435\u043C\u043B\u0438\u0442\u044C\u0441\u044F
+        \u0448\u0430\u0440\u044B."
+      - 'Clique em um local vazio para soltar as bolas
+
+
+        Mova-se para determinar
+        onde as bolas devem cair.'
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: NewStep_2
+      TermType: 0
+      Description: 
+      Languages:
+      - 'When a ball falls into a slot
+
+        you''ll be rewarded with bonus points'
+      - "\u30DC\u30FC\u30EB\u304C\u30B9\u30ED\u30C3\u30C8\u306B\u5F53\u305F\u3063\u305F\u3068\u304D\n\u30DC\u30FC\u30CA\u30B9\u30DD\u30A4\u30F3\u30C8\u304C\u4ED8\u4E0E\u3055\u308C\u307E\u3059"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041A\u043E\u0433\u0434\u0430 \u043C\u044F\u0447 \u043F\u043E\u043F\u0430\u0434\u0430\u0435\u0442
+        \u0432 \u0441\u043B\u043E\u0442\n\u0432\u044B \u0431\u0443\u0434\u0435\u0442\u0435
+        \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u044B
+        \u0431\u043E\u043D\u0443\u0441\u043D\u044B\u043C\u0438 \u0431\u0430\u043B\u043B\u0430\u043C\u0438"
+      - "Quando uma bola cai em um slot\nvoc\xEA ser\xE1 recompensado com pontos
+        de b\xF4nus"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: NewStep_3
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Try to light all 8 bulbs!
+
+
+        You''ll get a chance to play the lucky
+        Slot
+
+
+        777 is waiting!'
+      - "8\u500B\u3059\u3079\u3066\u70B9\u706F\u3057\u3066\u307F\u3088\u3046\uFF01\n\n\u5E78\u904B\u306E\u30B9\u30ED\u30C3\u30C8\u30DE\u30B7\u30F3\u3092\u30D7\u30EC\u30A4\u3059\u308B\u6A5F\u4F1A\u304C\u3042\u308A\u307E\u3059\n\n\u30B8\u30E3\u30C3\u30AF\u30DD\u30C3\u30C8\u304C\u3042\u306A\u305F\u3092\u5F85\u3063\u3066\u3044\u307E\u3059\uFF01"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439 \u0437\u0430\u0436\u0435\u0447\u044C
+        \u0432\u0441\u0435 8 \u043E\u0433\u043D\u0435\u0439!\n\n\u0423 \u0432\u0430\u0441
+        \u0431\u0443\u0434\u0435\u0442 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C
+        \u0441\u044B\u0433\u0440\u0430\u0442\u044C \u0432 \u0438\u0433\u0440\u043E\u0432\u044B\u0435
+        \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u044B \u0443\u0434\u0430\u0447\u0438\n\n\u0414\u0436\u0435\u043A\u043F\u043E\u0442
+        \u0436\u0434\u0435\u0442 \u0432\u0430\u0441!"
+      - "Tente acender todas as 8 l\xE2mpadas!\n\nVoc\xEA ter\xE1 a chance de jogar
+        o Lucky Slot\n\n 777 est\xE1 esperando!"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: No ads right now, please try it later
+      TermType: 0
+      Description: 
+      Languages:
+      - No ads right now, please try it later
+      - "\u73FE\u5728\u5E83\u544A\u306F\u3042\u308A\u307E\u305B\u3093\u3002\u5F8C\u3067\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0421\u0435\u0439\u0447\u0430\u0441 \u043D\u0435\u0442 \u0440\u0435\u043A\u043B\u0430\u043C\u044B,
+        \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u043F\u043E\u0437\u0436\u0435"
+      - "Sem an\xFAncios no momento, tente mais tarde"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: No record at the moment
+      TermType: 0
+      Description: 
+      Languages:
+      - No record at the moment
+      - "\u73FE\u5728\u30A8\u30F3\u30C8\u30EA\u30FC\u306F\u3042\u308A\u307E\u305B\u3093"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041D\u0430 \u0434\u0430\u043D\u043D\u044B\u0439 \u043C\u043E\u043C\u0435\u043D\u0442
+        \u043D\u0435\u0442 \u0437\u0430\u043F\u0438\u0441\u0438"
+      - Sem registro no momento
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: ONE MORE SLOT
+      TermType: 0
+      Description: 
+      Languages:
+      - One More Slot
+      - "\u3082\u3046 1 \u3064\u306E\u30B9\u30ED\u30C3\u30C8"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0415\u0449\u0435 \u041E\u0434\u0438\u043D \u0421\u043B\u043E\u0442"
+      - mais um giro
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Payment successful
+      TermType: 0
+      Description: 
+      Languages:
+      - Payment successful
+      - "\u652F\u6255\u3044\u304C\u6210\u529F\u3057\u307E\u3057\u305F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041E\u043F\u043B\u0430\u0442\u0430 \u043F\u0440\u043E\u0448\u043B\u0430
+        \u0443\u0441\u043F\u0435\u0448\u043D\u043E"
+      - Pagamento bem sucedido
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: PiggyTitle
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_Congratulation
+      - "DUI_\u304A\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307E\u3059"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "DUI_\u043F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+      - "DUI_Parab\xE9ns"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: 'Please confirm sberbank accout:'
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Please confirm sberbank accout:'
+      - "\u9280\u884C\u53E3\u5EA7\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044:"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043F\u043E\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435
+        \u0441\u0447\u0435\u0442 \u0441\u0431\u0435\u0440\u0431\u0430\u043D\u043A\u0430:"
+      - 'Por favor, confirme a conta do sberbank:'
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please enter your PayPal accout
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter your PayPal accout
+      - "PayPal \u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435
+        \u0441\u0432\u043E\u0439 \u0441\u0447\u0435\u0442 PayPal"
+      - Insira sua conta do PayPal
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please enter your receiving information to receive the prize
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter your receiving information to receive the prize
+      - "\u8CDE\u54C1\u3092\u53D7\u3051\u53D6\u308B\u306B\u306F\u8A73\u7D30\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435
+        \u0441\u0432\u043E\u0438 \u0434\u0430\u043D\u043D\u044B\u0435 \u0434\u043B\u044F
+        \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u044F \u043F\u0440\u0438\u0437\u0430"
+      - "Insira suas informa\xE7\xF5es de recebimento para receber o pr\xEAmio"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please enter your withdrawal account
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter your withdrawal account
+      - "\u51FA\u91D1\u53E3\u5EA7\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435
+        \u0441\u0432\u043E\u0439 \u0441\u0447\u0435\u0442 \u0434\u043B\u044F \u0432\u044B\u0432\u043E\u0434\u0430
+        \u0441\u0440\u0435\u0434\u0441\u0442\u0432"
+      - Por favor, insira sua conta de saque
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please enter your {0} accout
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter your {0} accout
+      - "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044
+        {0}"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435
+        \u0441\u0432\u043E\u0439 \u0430\u043A\u043A\u0430\u0443\u043D\u0442 {0}"
+      - Insira sua conta {0}
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Please fill in your account
+      TermType: 0
+      Description: 
+      Languages:
+      - Please fill in your account
+      - "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u5B8C\u4E86\u3057\u3066\u304F\u3060\u3055\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0437\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435
+        \u0441\u0432\u043E\u0439 \u0430\u043A\u043A\u0430\u0443\u043D\u0442"
+      - Por favor, preencha sua conta
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: ProGressing......
+      TermType: 0
+      Description: 
+      Languages:
+      - ProGressing......
+      - "\u9032\u884C\u4E2D..."
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0432 \u0445\u043E\u0434\u0435 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F..."
+      - Progredir......
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Queuing
+      TermType: 0
+      Description: 
+      Languages:
+      - Queuing
+      - "\u9806\u756A\u5F85\u3061"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041E\u0447\u0435\u0440\u0435\u0434\u044C"
+      - Fila
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Rate us
+      TermType: 0
+      Description: 
+      Languages:
+      - Rate us
+      - "\u79C1\u305F\u3061\u3092\u8A55\u4FA1\u3059\u308B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041E\u0446\u0435\u043D\u0438\u0442\u0435 \u043D\u0430\u0441"
+      - Nos avalie
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Record
+      TermType: 0
+      Description: 
+      Languages:
+      - Record
+      - "\u8A18\u9332"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0417\u0430\u043F\u0438\u0441\u044C"
+      - Registro
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Redeem
+      TermType: 0
+      Description: 
+      Languages:
+      - Redeem
+      - "\u8D16\u3044"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u044B\u043A\u0443\u043F\u0430\u0442\u044C"
+      - Resgatar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Revise
+      TermType: 0
+      Description: 
+      Languages:
+      - Revise
+      - "\u6539\u8A02"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u043F\u0435\u0440\u0435\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+      - Rever
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: 'Tel:'
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Tel:'
+      - "\u96FB\u8A71\u756A\u53F7:"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0422\u0435\u043B:"
+      - 'Tel:'
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Try Again
+      TermType: 0
+      Description: 
+      Languages:
+      - Try Again
+      - "\u518D\u8A66\u884C\u3059\u308B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439 \u0441\u043D\u043E\u0432\u0430"
+      - Tente Novamente
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_AmazonIcon
+      TermType: 5
+      Description: 
+      Languages:
+      - SOHOShop/UI_Redeem/UI_AmazonIcon[UI_AmazonIcon]
+      - SOHOShop/UI_Redeem/UI_ShopZ[UI_ShopZ]
+      - 
+      - 
+      - 
+      - 
+      - 
+      - SOHOShop/UI_Redeem/UI_ShopZ[UI_ShopZ]
+      - SOHOShop/UI_Redeem/UI_ShopZ[UI_ShopZ]
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_Congratulation
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_Congratulation
+      - "DUI_\u304A\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307E\u3059"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "DUI_\u043F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+      - "DUI_Parab\xE9ns"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_GuaguaAm
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_GuaguaAm
+      - DUI_GuaguaAmZ
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_GuaguaAmZ
+      - DUI_GuaguaAmZ
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_GuaguaCash
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_GuaguaCash
+      - "DUI_Guagua\uFFE5"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_GuaguaR
+      - DUI_GuaguaP
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_JL_Am
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_JL_Am
+      - DUI_JL_Am 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_JL_Am 1
+      - DUI_JL_Am 1
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_JZ_Am
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_JZ_Am
+      - DUI_JZ_Am 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_JZ_Am 1
+      - DUI_JZ_Am 1
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_JZ_Cash
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_JZ_Cash
+      - DUI_JZ_Cash 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_JZ_Cash 1
+      - DUI_JZ_Cash 1
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_J_Am
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_J_Am
+      - DUI_J_Am 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_J_Am 1
+      - DUI_J_Am 1
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_J_Cash
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_J_Cash
+      - "DUI_J_\uFFE5"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_J_R
+      - DUI_J_P
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_L_Cash
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_L_Cash
+      - "DUI_L_\uFFE5"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_L_R
+      - DUI_L_P
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_PayPal
+      TermType: 5
+      Description: 
+      Languages:
+      - SOHOShop/UI_Redeem/UserAccountMethod/UI_PayPal[UI_PayPal]
+      - SOHOShop/UI_Redeem/UserAccountMethod/UI_PayPay[UI_PayPay]
+      - 
+      - 
+      - 
+      - 
+      - 
+      - SOHOShop/UI_Redeem/UserAccountMethod/UI_QIWI[UI_QIWI]
+      - SOHOShop/UI_Redeem/UserAccountMethod/UI_pix[UI_pix]
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_ReviseBtn
+      TermType: 5
+      Description: 
+      Languages:
+      - SOHOShop/UI_Redeem/UI_ReviseBtn[UI_ReviseBtn]
+      - SOHOShop/UI_Redeem/UI_ReviseBtn_JP[UI_ReviseBtn_JP]
+      - 
+      - 
+      - 
+      - 
+      - 
+      - SOHOShop/UI_Redeem/UI_ReviseBtn_RU[UI_ReviseBtn_RU]
+      - SOHOShop/UI_Redeem/UI_ReviseBtn_P[UI_ReviseBtn_P]
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_TopBarAm
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_TopBarAm
+      - DUI_TopBarAm 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_TopBarAm 1
+      - DUI_TopBarAm 1
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_TopBarcash
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_TopBarcash
+      - "DUI_TopBar\uFFE5"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_TopBarR
+      - DUI_TopBarP
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: UI_Z_Cash
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_Z_Cash
+      - "DUI_Z_\uFFE5"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_Z_R
+      - DUI_Z_P
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: USFonts
+      TermType: 1
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: WINNING NUMBER
+      TermType: 0
+      Description: 
+      Languages:
+      - Winning Number
+      - "\u5F53\u9078\u756A\u53F7"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u044B\u0438\u0433\u0440\u044B\u0448\u043D\u044B\u0439 \u041D\u043E\u043C\u0435\u0440"
+      - "N\xFAmero Vencedor"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Within
+      TermType: 0
+      Description: 
+      Languages:
+      - ' Within '
+      - "\u4EE5\u5185\u306B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - " \u0412 \u041F\u0440\u0435\u0434\u0435\u043B\u0430\u0445 "
+      - ' Dentro De '
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: YOU NUMBER
+      TermType: 0
+      Description: 
+      Languages:
+      - You Number
+      - "\u3042\u306A\u305F\u306E\u756A\u53F7"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0422\u0432\u043E\u0439 \u041D\u043E\u043C\u0435\u0440"
+      - "Seu N\xFAmero"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: You have collected
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You have collected '
+      - "\u3042\u306A\u305F\u306F\u96C6\u3081\u307E\u3057\u305F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u044B \u0441\u043E\u0431\u0440\u0430\u043B\u0438 "
+      - "voc\xEA coletou "
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: You received
+      TermType: 0
+      Description: 
+      Languages:
+      - You received
+      - "\u3042\u306A\u305F\u304C\u53D7\u3051\u53D6\u308A\u307E\u3057\u305F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0438"
+      - "Voc\xEA recebeu"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Your current queue position is
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Your current queue position is '
+      - "\u30AD\u30E5\u30FC\u5185\u306E\u73FE\u5728\u306E\u4F4D\u7F6E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u0430\u0448\u0430 \u0442\u0435\u043A\u0443\u0449\u0430\u044F \u043F\u043E\u0437\u0438\u0446\u0438\u044F
+        \u0432 \u043E\u0447\u0435\u0440\u0435\u0434\u0438 "
+      - "Sua posi\xE7\xE3o atual na fila \xE9 "
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Your current rewards
+      TermType: 0
+      Description: 
+      Languages:
+      - Your current rewards
+      - "\u73FE\u5728\u306E\u5831\u916C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u0430\u0448\u0438 \u0442\u0435\u043A\u0443\u0449\u0438\u0435 \u043D\u0430\u0433\u0440\u0430\u0434\u044B"
+      - Suas recompensas atuais
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Your personal information will only be saved on the device, and will
+        only be uploaded when you submit a claim applicaation
+      TermType: 0
+      Description: 
+      Languages:
+      - Your personal information will only be saved on the device, and will only
+        be uploaded when you submit a claim applicaation
+      - "\u3042\u306A\u305F\u306E\u500B\u4EBA\u60C5\u5831\u306F\u30C7\u30D0\u30A4\u30B9\u306B\u306E\u307F\u4FDD\u5B58\u3055\u308C\u3001\u8ACB\u6C42\u3092\u63D0\u51FA\u3059\u308B\u3068\u304D\u306B\u306E\u307F\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u3055\u308C\u307E\u3059\u3002"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u0430\u0448\u0430 \u043B\u0438\u0447\u043D\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F
+        \u0431\u0443\u0434\u0435\u0442 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0430
+        \u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0430 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435
+        \u0438 \u0431\u0443\u0434\u0435\u0442 \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043D\u0430
+        \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u0438 \u043F\u043E\u0434\u0430\u0447\u0435
+        \u0437\u0430\u044F\u0432\u043B\u0435\u043D\u0438\u044F \u043D\u0430 \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u0435
+        \u043F\u0440\u0435\u0442\u0435\u043D\u0437\u0438\u0438."
+      - "Suas informa\xE7\xF5es pessoais ser\xE3o salvas apenas no dispositivo e
+        ser\xE3o carregadas apenas quando voc\xEA enviar um pedido de reivindica\xE7\xE3o"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: 'Your queue position is :'
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Your queue position is :'
+      - "\u30AD\u30E5\u30FC\u5185\u306E\u3042\u306A\u305F\u306E\u4F4D\u7F6E:"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0412\u0430\u0448\u0430 \u043F\u043E\u0437\u0438\u0446\u0438\u044F \u0432
+        \u043E\u0447\u0435\u0440\u0435\u0434\u0438:"
+      - "Sua posi\xE7\xE3o na fila \xE9:"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: cashRewardImg
+      TermType: 5
+      Description: 
+      Languages:
+      - DUI_JL_Cash
+      - DUI_JL_Cash 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - DUI_JL_Cash 1
+      - DUI_JL_Cash 1
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: coinSign
+      TermType: 0
+      Description: 
+      Languages:
+      - '$ '
+      - "\uFFE5"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u20BD "
+      - 'R$ '
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: from GoldenPiggy Bonus!
+      TermType: 0
+      Description: 
+      Languages:
+      - from GoldenPiggy Bonus!
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: "\u30B4\u30FC\u30EB\u30C7\u30F3\u30D6\u30BF\u306E\u30DC\u30FC\u30CA\u30B9\u304B\u3089"
+      TermType: 0
+      Description: "do b\xF4nus GoldenPiggy!"
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: giftInstructions
+      TermType: 0
+      Description: 
+      Languages:
+      - "\n    1. The way you get puzzles, the number ofpuzzles obtained in each
+        way, and therewards may change from time to time.\nPlease refer to the activity
+        page in the app to view the latest event details.\n\n    2.When redeeming
+        rewards, you mustaccurately fill in your receiving information,otherwise,you
+        will be fully responsible forthe failure of reward delivery. After weconfirm,the
+        reward will be mailed to youwithin 3-15 working days. You need tocomply with
+        all applicable laws and beresponsible for tax filing and payment.\n\n   
+        3. We will not provide any after-sales service for the rewards you get in
+        the App. If you have any questions about the award, please contact the applicable
+        manufacturer.\n\n    4. If there is a force majeure event or anychange in
+        circumstances beyond our control(including but not limited to strikes, God'sactions,
+        policy changes, government actions, cyber attacks and system failures) resultingin
+        suspension or adjustment of any activities, please understand that we do
+        not We areobligated to compensate you for anyexpenses, and we do not assume
+        anyresponsibility. If you are unable to participate in any activity due to
+        yourimproper operation, network failure,telecommunications operator's failure
+        orany third-party reasons, we are not guaranteed to compensate any costs,
+        and we do notassume any legal responsibility.\n\n    5. Please strictly abide
+        by the rules of the event. If any cheating or violations are found(including
+        but not limited to using illegaltools to decode our services and hacking),measures
+        will be taken, including but notlimited to disqualification from participatingin
+        this event, redeeming any rewards,obtaining redeemed rewards and/or Usingthe
+        application , in this case, nocompensation of any kind will be paid to you,
+        and we also reserve the right to ask you torefund any rights, rights and
+        rewards youhave obtained.\n\n    6. To the extent permitted by applicable
+        laws, we have the right to adjust the rules of the event at any time. If
+        we decide to make amajor decision, we will send advance noticeof the adjustment
+        in the App.Theadjustment will take effect when the noticeis issued or at
+        the time specified in thenotice.If you do not agree to anyadjustments,please
+        do not participate in thisactivity again .\n\n    7. We reserve the right
+        to interpret activity rules and applicable laws and regulations within the
+        scope permitted by the following activities.\n\n    8. Our end user license
+        agreement and privacy policy should also apply to this activity. If there
+        are discrepancies andinconsistencies between the policy and therules of any
+        particular activity, the activityshall prevail.\n\n     9. If you have any
+        questions or disputes about the rules,this activity or theapplication,please
+        contact us by sending anE-mail to:yutianxiang19921223@Gmail.com\nGoogle is
+        not a sponsor nor is involved in anyway with these contests or sweepstakes."
+      - "\n    1. \u30D1\u30BA\u30EB\u306E\u5165\u624B\u65B9\u6CD5\u3001\u5404\u65B9\u6CD5\u3067\u7372\u5F97\u3067\u304D\u308B\u30D1\u30BA\u30EB\u306E\u6570\u3001\u304A\u3088\u3073\u5831\u916C\u306F\u6642\u3005\u5909\u66F4\u3055\u308C\u308B\u5834\u5408\u304C\u3042\u308A\u307E\u3059\u3002\n\u6700\u65B0\u306E\u30A4\u30D9\u30F3\u30C8\u8A73\u7D30\u306F\u30A2\u30D7\u30EA\u5185\u306E\u30A2\u30AF\u30C6\u30A3\u30D3\u30C6\u30A3\u30DA\u30FC\u30B8\u3092\u3054\u89A7\u304F\u3060\u3055\u3044\u3002\n\n   
+        2.\u7279\u5178\u3092\u5F15\u304D\u63DB\u3048\u308B\u969B\u306F\u3001\u53D7\u3051\u53D6\u308A\u60C5\u5831\u3092\u6B63\u78BA\u306B\u5165\u529B\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002\u305D\u3046\u3067\u306A\u3044\u5834\u5408\u306F\u3001\u7279\u5178\u306E\u914D\u9001\u306B\u5931\u6557\u3057\u305F\u5834\u5408\u306E\u5168\u8CAC\u4EFB\u306F\u304A\u5BA2\u69D8\u306B\u3042\u308A\u307E\u3059\u3002\u78BA\u8A8D\u5F8C\u3001\u7279\u5178\u306F
+        3 \uFF5E 15 \u55B6\u696D\u65E5\u4EE5\u5185\u306B\u90F5\u9001\u3055\u308C\u307E\u3059\u3002\u3042\u306A\u305F\u306F\u9069\u7528\u3055\u308C\u308B\u3059\u3079\u3066\u306E\u6CD5\u5F8B\u3092\u9075\u5B88\u3057\u3001\u7A0E\u91D1\u306E\u7533\u544A\u3068\u652F\u6255\u3044\u306B\u8CAC\u4EFB\u3092\u8CA0\u3046\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002\n\n   
+        3. \u672C\u30A2\u30D7\u30EA\u5185\u3067\u7372\u5F97\u3057\u305F\u7279\u5178\u306B\u3064\u3044\u3066\u306F\u3001\u5F53\u793E\u306F\u4E00\u5207\u306E\u30A2\u30D5\u30BF\u30FC\u30B5\u30FC\u30D3\u30B9\u3092\u63D0\u4F9B\u3057\u307E\u305B\u3093\u3002\u7279\u5178\u306B\u95A2\u3057\u3066\u3054\u4E0D\u660E\u306A\u70B9\u304C\u3054\u3056\u3044\u307E\u3057\u305F\u3089\u3001\u8A72\u5F53\u306E\u30E1\u30FC\u30AB\u30FC\u306B\u304A\u554F\u3044\u5408\u308F\u305B\u304F\u3060\u3055\u3044\u3002\n\n   
+        4. \u4E0D\u53EF\u6297\u529B\u306E\u51FA\u6765\u4E8B\u3001\u307E\u305F\u306F\u5F53\u793E\u306E\u5236\u5FA1\u3092\u8D85\u3048\u305F\u72B6\u6CC1\u306E\u5909\u5316\uFF08\u30B9\u30C8\u30E9\u30A4\u30AD\u3001\u795E\u306E\u63AA\u7F6E\u3001\u653F\u7B56\u5909\u66F4\u3001\u653F\u5E9C\u306E\u63AA\u7F6E\u3001\u30B5\u30A4\u30D0\u30FC\u653B\u6483\u3001\u30B7\u30B9\u30C6\u30E0\u969C\u5BB3\u3092\u542B\u307F\u307E\u3059\u304C\u3053\u308C\u3089\u306B\u9650\u5B9A\u3055\u308C\u307E\u305B\u3093\uFF09\u304C\u767A\u751F\u3057\u3001\u6D3B\u52D5\u306E\u4E00\u6642\u505C\u6B62\u307E\u305F\u306F\u8ABF\u6574\u304C\u767A\u751F\u3057\u305F\u5834\u5408\u306F\u3001\u3054\u7406\u89E3\u304F\u3060\u3055\u3044\u3002\u5F53\u793E\u306F\u304A\u5BA2\u69D8\u306B\u3042\u3089\u3086\u308B\u8CBB\u7528\u3092\u88DC\u511F\u3059\u308B\u7FA9\u52D9\u304C\u3042\u308A\u3001\u4E00\u5207\u306E\u8CAC\u4EFB\u3092\u8CA0\u3044\u307E\u305B\u3093\u3002\u304A\u5BA2\u69D8\u306E\u4E0D\u9069\u5207\u306A\u64CD\u4F5C\u3001\u30CD\u30C3\u30C8\u30EF\u30FC\u30AF\u969C\u5BB3\u3001\u901A\u4FE1\u4E8B\u696D\u8005\u306E\u969C\u5BB3\u3001\u307E\u305F\u306F\u7B2C\u4E09\u8005\u306E\u7406\u7531\u306B\u3088\u308A\u30A2\u30AF\u30C6\u30A3\u30D3\u30C6\u30A3\u306B\u53C2\u52A0\u3067\u304D\u306A\u304F\u306A\u3063\u305F\u5834\u5408\u3001\u5F53\u793E\u306F\u8CBB\u7528\u306E\u88DC\u511F\u3092\u4FDD\u8A3C\u305B\u305A\u3001\u6CD5\u7684\u8CAC\u4EFB\u3082\u8CA0\u3044\u307E\u305B\u3093\u3002\n\n   
+        5. \u30A4\u30D9\u30F3\u30C8\u306E\u30EB\u30FC\u30EB\u306F\u53B3\u5B88\u3057\u3066\u304F\u3060\u3055\u3044\u3002\u4E0D\u6B63\u884C\u70BA\u307E\u305F\u306F\u9055\u53CD\uFF08\u5F53\u793E\u306E\u30B5\u30FC\u30D3\u30B9\u3092\u30C7\u30B3\u30FC\u30C9\u3059\u308B\u305F\u3081\u306E\u9055\u6CD5\u306A\u30C4\u30FC\u30EB\u306E\u4F7F\u7528\u3084\u30CF\u30C3\u30AD\u30F3\u30B0\u3092\u542B\u307F\u307E\u3059\u304C\u3053\u308C\u306B\u9650\u5B9A\u3055\u308C\u307E\u305B\u3093\uFF09\u304C\u898B\u3064\u304B\u3063\u305F\u5834\u5408\u306F\u3001\u672C\u30A4\u30D9\u30F3\u30C8\u3078\u306E\u53C2\u52A0\u8CC7\u683C\u306E\u5265\u596A\u3001\u7279\u5178\u306E\u5F15\u304D\u63DB\u3048\u3001\u5F15\u304D\u63DB\u3048\u3089\u308C\u305F\u7279\u5178\u306E\u53D6\u5F97\u304A\u3088\u3073/\u307E\u305F\u306F\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u306E\u4F7F\u7528\u3092\u542B\u3080\u304C\u3053\u308C\u3089\u306B\u9650\u5B9A\u3055\u308C\u306A\u3044\u63AA\u7F6E\u304C\u8B1B\u3058\u3089\u308C\u307E\u3059\u3002
+        , \u3053\u306E\u5834\u5408\u3001\u304A\u5BA2\u69D8\u306B\u306F\u3044\u304B\u306A\u308B\u7A2E\u985E\u306E\u88DC\u511F\u3082\u652F\u6255\u308F\u308C\u305A\u3001\u307E\u305F\u5F53\u793E\u306F\u304A\u5BA2\u69D8\u304C\u53D6\u5F97\u3057\u305F\u6A29\u5229\u3001\u6A29\u5229\u3001\u5831\u916C\u306E\u8FD4\u91D1\u3092\u6C42\u3081\u308B\u6A29\u5229\u3092\u7559\u4FDD\u3057\u307E\u3059\u3002\n\n   
+        6. \u9069\u7528\u3055\u308C\u308B\u6CD5\u5F8B\u3067\u8A31\u53EF\u3055\u308C\u308B\u7BC4\u56F2\u5185\u3067\u3001\u5F53\u793E\u306F\u3044\u3064\u3067\u3082\u30A4\u30D9\u30F3\u30C8\u306E\u30EB\u30FC\u30EB\u3092\u8ABF\u6574\u3059\u308B\u6A29\u5229\u3092\u6709\u3057\u307E\u3059\u3002\u5F53\u793E\u304C\u91CD\u5927\u306A\u6C7A\u5B9A\u3092\u4E0B\u3059\u5834\u5408\u306F\u3001\u30A2\u30D7\u30EA\u5185\u3067\u8ABF\u6574\u306B\u95A2\u3059\u308B\u4E8B\u524D\u901A\u77E5\u3092\u9001\u4FE1\u3057\u307E\u3059\u3002\u8ABF\u6574\u306F\u3001\u901A\u77E5\u304C\u767A\u884C\u3055\u308C\u305F\u3068\u304D\u3001\u307E\u305F\u306F\u901A\u77E5\u306B\u6307\u5B9A\u3055\u308C\u305F\u6642\u70B9\u3067\u6709\u52B9\u306B\u306A\u308A\u307E\u3059\u3002\u8ABF\u6574\u306B\u540C\u610F\u3067\u304D\u306A\u3044\u5834\u5408\u306F\u3001\u3053\u306E\u30A2\u30AF\u30C6\u30A3\u30D3\u30C6\u30A3\u306B\u518D\u5EA6\u53C2\u52A0\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002
+        \u3002\n\n    7. \u5F53\u793E\u306F\u3001\u4EE5\u4E0B\u306E\u6D3B\u52D5\u306B\u304A\u3044\u3066\u8A31\u5BB9\u3055\u308C\u308B\u7BC4\u56F2\u5185\u3067\u3001\u6D3B\u52D5\u898F\u5B9A\u304A\u3088\u3073\u9069\u7528\u3055\u308C\u308B\u6CD5\u4EE4\u3092\u89E3\u91C8\u3059\u308B\u6A29\u5229\u3092\u7559\u4FDD\u3057\u307E\u3059\u3002\n\n   
+        8. \u3053\u306E\u6D3B\u52D5\u306B\u306F\u3001\u5F53\u793E\u306E\u30A8\u30F3\u30C9
+        \u30E6\u30FC\u30B6\u30FC \u30E9\u30A4\u30BB\u30F3\u30B9\u5951\u7D04\u304A\u3088\u3073\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC
+        \u30DD\u30EA\u30B7\u30FC\u3082\u9069\u7528\u3055\u308C\u307E\u3059\u3002\u7279\u5B9A\u306E\u30A2\u30AF\u30C6\u30A3\u30D3\u30C6\u30A3\u306E\u30DD\u30EA\u30B7\u30FC\u3068\u30EB\u30FC\u30EB\u306E\u9593\u306B\u77DB\u76FE\u3084\u77DB\u76FE\u304C\u3042\u308B\u5834\u5408\u306F\u3001\u305D\u306E\u30A2\u30AF\u30C6\u30A3\u30D3\u30C6\u30A3\u304C\u512A\u5148\u3055\u308C\u307E\u3059\u3002\n\n    
+        9. \u30EB\u30FC\u30EB\u3001\u3053\u306E\u30A2\u30AF\u30C6\u30A3\u30D3\u30C6\u30A3\u3001\u307E\u305F\u306F\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u306B\u95A2\u3057\u3066\u8CEA\u554F\u3084\u7D1B\u4E89\u304C\u3042\u308B\u5834\u5408\u306F\u3001yutianxiang19921223@Gmail.com
+        \u307E\u3067\u96FB\u5B50\u30E1\u30FC\u30EB\u3092\u9001\u4FE1\u3057\u3066\u3054\u9023\u7D61\u304F\u3060\u3055\u3044\u3002\nGoogle
+        \u306F\u30B9\u30DD\u30F3\u30B5\u30FC\u3067\u306F\u306A\u304F\u3001\u3053\u308C\u3089\u306E\u30B3\u30F3\u30C6\u30B9\u30C8\u3084\u61F8\u8CDE\u306B\u306F\u4E00\u5207\u95A2\u4E0E\u3057\u3066\u3044\u307E\u305B\u3093\u3002"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\n    1. The way you get puzzles, the number ofpuzzles obtained in each
+        way, and therewards may change from time to time.\nPlease refer to the activity
+        page in the app toview the latest event details.\n\n    2.When redeeming
+        rewards, you mustaccurately fill in your receiving information,otherwise,you
+        will be fully responsible forthe failure of reward delivery. After weconfirm,the
+        reward will be mailed to youwithin 3-15 working days. You need tocomply with
+        all applicable laws and beresponsible for tax filing and payment.\n\n   
+        3. We will not provide any after-sales servicefor the rewards you get in
+        the App. If youhave any questions about the award, pleasecontact the applicable
+        manufacturer.\n\n    4. If there is a force majeure event or anychange in
+        circumstances beyond our control(including but not limited to strikes, God'sactions,
+        policy changes, government actions, cyber attacks and system failures) resultingin
+        suspension or adjustment of any activities, please understand that we do
+        not We areobligated to compensate you for anyexpenses, and we do not assume
+        anyresponsibility. If you are unable toparticipate in any activity due to
+        yourimproper operation, network failure,telecommunications operator's failure
+        orany third-party reasons, we are not obligedto compensate any costs, and
+        we do notassume any legal responsibility.\n\n    5. Please strictly abide
+        by the rules of theevent. If any cheating or violations are found(including
+        but not limited to using illegaltools to decode our services and hacking),measures
+        will be taken, including but notlimited to disqualification from participatingin
+        this event, redeeming any rewards,obtaining redeemed rewards and/or Usingthe
+        application, in this case, nocompensation of any kind will be paid to you,
+        and we also reserve the right to ask you torefund any rights, rights and
+        rewards youhave obtained.\n\n    6. To the extent permitted by applicablelaws,
+        we have the right to adjust the rules ofthe event at any time. If we decide
+        to make amajor decision, we will send advance noticeof the adjustment in
+        the App.Theadjustment will take effect when the noticeis issued or at the
+        time specified in thenotice.If you do not agree to anyadjustments,please
+        do not participate in thisactivity again.\n\n    7. We reserve the right
+        to interpret activityrules and applicable laws and regulationswithin the
+        scope permitted by the followingactivities.\n\n    8. Our end user license
+        agreement andprivacy policy should also apply to thisactivity. If there are
+        discrepancies andinconsistencies between the policy and therules of any particular
+        activity, the activityshall prevail.\n\n     9. If you have any questions
+        or disputesabout the rules,this activity or theapplication,please contact
+        us by sending anE-mail to:yutianxiang19921223@Gmail.com\nGoogle is not a
+        sponsor nor is involved in anyway with these contests or sweepstakes."
+      - "\n    1. A forma como voc\xEA obt\xE9m os quebra-cabe\xE7as, o n\xFAmero
+        de quebra-cabe\xE7as obtidos de cada maneira e as recompensas podem mudar
+        de tempos em tempos.\nConsulte a p\xE1gina de atividades no aplicativo para
+        ver os detalhes do evento mais recente.\n\n    2. Ao resgatar recompensas,
+        voc\xEA deve preencher com precis\xE3o suas informa\xE7\xF5es de recebimento,
+        caso contr\xE1rio, voc\xEA ser\xE1 totalmente respons\xE1vel pela falha na
+        entrega da recompensa. Depois de confirmarmos, a recompensa ser\xE1 enviada
+        para voc\xEA dentro de 3 a 15 dias \xFAteis. Voc\xEA precisa cumprir todas
+        as leis aplic\xE1veis \u200B\u200Be ser respons\xE1vel pelo registro e pagamento
+        de impostos.\n\n    3. N\xE3o forneceremos nenhum servi\xE7o p\xF3s-venda
+        para as recompensas que voc\xEA recebe no aplicativo. Se voc\xEA tiver alguma
+        d\xFAvida sobre o pr\xEAmio, entre em contato com o fabricante aplic\xE1vel.\n\n   
+        4. Se houver um evento de for\xE7a maior ou qualquer altera\xE7\xE3o nas
+        circunst\xE2ncias al\xE9m do nosso controle (incluindo, entre outros, greves,
+        a\xE7\xF5es de Deus, mudan\xE7as de pol\xEDtica, a\xE7\xF5es governamentais,
+        ataques cibern\xE9ticos e falhas do sistema) resultando em suspens\xE3o ou
+        ajuste de quaisquer atividades, por favor, entenda que n\xE3o somos obrigados
+        a compens\xE1-lo por quaisquer despesas e n\xE3o assumimos qualquer responsabilidade.
+        Se voc\xEA n\xE3o puder participar de nenhuma atividade devido a opera\xE7\xE3o
+        inadequada, falha de rede, falha da operadora de telecomunica\xE7\xF5es ou
+        quaisquer motivos de terceiros, n\xE3o garantimos o reembolso de quaisquer
+        custos e n\xE3o assumimos qualquer responsabilidade legal.\n\n    5. Siga
+        rigorosamente as regras do evento. Se qualquer trapa\xE7a ou viola\xE7\xE3o
+        for encontrada (incluindo, entre outros, o uso de ferramentas ilegais para
+        decodificar nossos servi\xE7os e hacking), medidas ser\xE3o tomadas, incluindo,
+        entre outras, a desqualifica\xE7\xE3o da participa\xE7\xE3o neste evento,
+        resgate de quaisquer recompensas, obten\xE7\xE3o de recompensas resgatadas
+        e/ou uso do aplicativo , neste caso, nenhuma compensa\xE7\xE3o de qualquer
+        tipo ser\xE1 paga a voc\xEA, e tamb\xE9m nos reservamos o direito de solicitar
+        o reembolso de quaisquer direitos, direitos e recompensas que voc\xEA tenha
+        obtido.\n\n    6. Na medida permitida pelas leis aplic\xE1veis, temos o direito
+        de ajustar as regras do evento a qualquer momento. Se decidirmos tomar uma
+        decis\xE3o importante, enviaremos um aviso pr\xE9vio do ajuste no aplicativo.
+        O ajuste entrar\xE1 em vigor quando o aviso for emitido ou no hor\xE1rio
+        especificado no aviso. Se voc\xEA n\xE3o concordar com nenhum ajuste, n\xE3o
+        participe desta atividade novamente .\n\n    7. Reservamo-nos o direito de
+        interpretar as regras da atividade e as leis e regulamentos aplic\xE1veis
+        \u200B\u200Bdentro do escopo permitido pelas seguintes atividades.\n\n   
+        8. Nosso contrato de licen\xE7a de usu\xE1rio final e pol\xEDtica de privacidade
+        tamb\xE9m devem se aplicar a esta atividade. Se houver discrep\xE2ncias e
+        inconsist\xEAncias entre a pol\xEDtica e as regras de qualquer atividade
+        em particular, a atividade prevalecer\xE1.\n\n     9. Se voc\xEA tiver alguma
+        d\xFAvida ou disputa sobre as regras, esta atividade ou o aplicativo, entre
+        em contato conosco enviando um e-mail para: yutianxiang19921223@Gmail.com\nO
+        Google n\xE3o \xE9 patrocinador nem est\xE1 envolvido de forma alguma com
+        esses concursos ou sorteios."
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: lottoPlay
+      TermType: 0
+      Description: 
+      Languages:
+      - Play
+      - "\u904A\u3076"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0418\u0433\u0440\u0430\u0442\u044C"
+      - Jogar
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: st4_1
+      TermType: 0
+      Description: 
+      Languages:
+      - 'There are '
+      - "\u304C\u3042\u308B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0438\u043C\u0435\u0442\u044C"
+      - "H\xE1 "
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: st4_2
+      TermType: 0
+      Description: 
+      Languages:
+      - players in front. Your position will be refreshed every minute.Thank you
+        for your patience
+      - "\u5148\u306E\u9078\u624B\u305F\u3061\u3002\u3042\u306A\u305F\u306E\u4F4D\u7F6E\u306F\u6BCE\u5206\u66F4\u65B0\u3055\u308C\u307E\u3059\u3002\u304A\u5F85\u3061\u3044\u305F\u3060\u3044\u3066\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u3002"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0438\u0433\u0440\u043E\u043A\u0438 \u0432\u043F\u0435\u0440\u0435\u0434\u0438.
+        \u0412\u0430\u0448\u0430 \u043F\u043E\u0437\u0438\u0446\u0438\u044F \u0431\u0443\u0434\u0435\u0442
+        \u043E\u0431\u043D\u043E\u0432\u043B\u044F\u0442\u044C\u0441\u044F \u043A\u0430\u0436\u0434\u0443\u044E
+        \u043C\u0438\u043D\u0443\u0442\u0443. \u0421\u043F\u0430\u0441\u0438\u0431\u043E
+        \u0437\u0430 \u0442\u0435\u0440\u043F\u0435\u043D\u0438\u0435."
+      - "jogadores na frente. Sua posi\xE7\xE3o ser\xE1 atualizada a cada minuto.
+        Obrigado por sua paci\xEAncia"
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: your rewards will be sent to your with in 3~15 business days . The merchants
+        representend are not sponsors of the rewards or otherwise affiliated with
+        this company. Tha longs and other identifying marks attcahed are trademarks
+        of and owned by each represented company and or its affiliates. please visit
+        each company's website for additional terms and conditiongs.
+      TermType: 0
+      Description: 
+      Languages:
+      - 'your rewards will be sent to your with in 3~15 business days [weekends not
+        included].
+
+
+        The merchants representend are not sponsors of the rewards
+        or otherwise affiliated with this company.
+
+
+        Tha longs and other
+        identifying marks attcahed are trademarks of and owned by each represented
+        company and/or its affiliates.
+
+
+        please visit each company''s website
+        for additional terms and conditiongs.'
+      - "\u7279\u5178\u306F 3 \uFF5E 15 \u55B6\u696D\u65E5\u4EE5\u5185\u306B\u767A\u9001\u3055\u308C\u307E\u3059
+        (\u9031\u672B\u306F\u542B\u307E\u308C\u307E\u305B\u3093)\u3002\n\n\u6CE8\u76EE\u306E\u8CA9\u58F2\u8005\u306F\u3001\u8CDE\u306E\u30B9\u30DD\u30F3\u30B5\u30FC\u3067\u306F\u306A\u304F\u3001\u307E\u305F\u3053\u306E\u4F1A\u793E\u3068\u306E\u63D0\u643A\u95A2\u4FC2\u3082\u3042\u308A\u307E\u305B\u3093\u3002\n\n\u6307\u5B9A\u304A\u3088\u3073\u305D\u306E\u4ED6\u306E\u8B58\u5225\u30DE\u30FC\u30AF\u306F\u3001\u4EE3\u8868\u3055\u308C\u308B\u5404\u4F1A\u793E\u304A\u3088\u3073/\u307E\u305F\u306F\u305D\u306E\u95A2\u9023\u4F1A\u793E\u306E\u5546\u6A19\u3067\u3059\u3002\n\n\u8FFD\u52A0\u306E\u5229\u7528\u898F\u7D04\u306B\u3064\u3044\u3066\u306F\u3001\u5404\u4F01\u696D\u306E
+        Web \u30B5\u30A4\u30C8\u3092\u3054\u89A7\u304F\u3060\u3055\u3044\u3002"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u0432\u0430\u0448\u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u044B \u0431\u0443\u0434\u0443\u0442
+        \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0432\u0430\u043C
+        \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0435 3-15 \u0440\u0430\u0431\u043E\u0447\u0438\u0445
+        \u0434\u043D\u0435\u0439 [\u0432\u044B\u0445\u043E\u0434\u043D\u044B\u0435
+        \u043D\u0435 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u044B].\n\n\u041F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0435
+        \u043F\u0440\u043E\u0434\u0430\u0432\u0446\u044B \u043D\u0435 \u044F\u0432\u043B\u044F\u044E\u0442\u0441\u044F
+        \u0441\u043F\u043E\u043D\u0441\u043E\u0440\u0430\u043C\u0438 \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u0439
+        \u0438\u043B\u0438 \u0438\u043D\u044B\u043C \u043E\u0431\u0440\u0430\u0437\u043E\u043C
+        \u0441\u0432\u044F\u0437\u0430\u043D\u044B \u0441 \u044D\u0442\u043E\u0439
+        \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0435\u0439.\n\n\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F
+        \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0438\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435
+        \u0437\u043D\u0430\u043A\u0438 \u044F\u0432\u043B\u044F\u044E\u0442\u0441\u044F
+        \u0442\u043E\u0432\u0430\u0440\u043D\u044B\u043C\u0438 \u0437\u043D\u0430\u043A\u0430\u043C\u0438
+        \u0438 \u043F\u0440\u0438\u043D\u0430\u0434\u043B\u0435\u0436\u0430\u0442
+        \u043A\u0430\u0436\u0434\u043E\u0439 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u043C\u043E\u0439
+        \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \u0438/\u0438\u043B\u0438
+        \u0435\u0435 \u0430\u0444\u0444\u0438\u043B\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u043C
+        \u043B\u0438\u0446\u0430\u043C.\n\n\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+        \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435 \u0432\u0435\u0431-\u0441\u0430\u0439\u0442
+        \u043A\u0430\u0436\u0434\u043E\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438
+        \u0434\u043B\u044F \u043E\u0437\u043D\u0430\u043A\u043E\u043C\u043B\u0435\u043D\u0438\u044F
+        \u0441 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u043C\u0438
+        \u0443\u0441\u043B\u043E\u0432\u0438\u044F\u043C\u0438."
+      - "suas recompensas ser\xE3o enviadas para voc\xEA em 3 a 15 dias \xFAteis
+        [fins de semana n\xE3o inclu\xEDdos].\n\nOs representantes dos comerciantes
+        n\xE3o s\xE3o patrocinadores das recompensas ou de outra forma afiliados
+        a esta empresa.\n\nOs longos e outras marcas de identifica\xE7\xE3o anexadas
+        s\xE3o marcas registradas e de propriedade de cada empresa representada e/ou
+        suas afiliadas.\n\nvisite o site de cada empresa para obter os termos e condi\xE7\xF5es
+        adicionais."
+      Flags: 000000000000000000
+      Languages_Touch: []
+    - Term: Redeem Gift
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Japanese
+      Code: ja
+      Flags: 0
+    - Name: Indonesian
+      Code: id
+      Flags: 0
+    - Name: Thai
+      Code: th
+      Flags: 0
+    - Name: Vietnamese
+      Code: vi
+      Flags: 0
+    - Name: Malay (Malaysia)
+      Code: ms-MY
+      Flags: 0
+    - Name: Chinese
+      Code: zh
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: Portuguese (Brazil)
+      Code: pt-BR
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: C:/Users/yfax/Desktop/plinko(1).txt
+    Spreadsheet_LocalCSVSeparator: "\t"
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

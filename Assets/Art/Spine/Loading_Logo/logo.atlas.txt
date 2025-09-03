@@ -1,0 +1,118 @@
+
+logo.png
+size: 1512,495
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: false
+  xy: 1082, 16
+  size: 117, 119
+  orig: 119, 121
+  offset: 1, 1
+  index: -1
+b
+  rotate: false
+  xy: 820, 9
+  size: 135, 126
+  orig: 137, 128
+  offset: 1, 1
+  index: -1
+bf
+  rotate: false
+  xy: 1270, 185
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+c
+  rotate: true
+  xy: 1334, 222
+  size: 113, 118
+  orig: 115, 120
+  offset: 1, 1
+  index: -1
+diban
+  rotate: false
+  xy: 489, 137
+  size: 619, 356
+  orig: 625, 360
+  offset: 3, 3
+  index: -1
+e
+  rotate: true
+  xy: 1369, 116
+  size: 104, 128
+  orig: 106, 130
+  offset: 1, 1
+  index: -1
+feichuan
+  rotate: false
+  xy: 1201, 14
+  size: 166, 135
+  orig: 168, 137
+  offset: 1, 1
+  index: -1
+h
+  rotate: false
+  xy: 661, 15
+  size: 157, 120
+  orig: 159, 122
+  offset: 1, 1
+  index: -1
+i
+  rotate: false
+  xy: 1270, 249
+  size: 54, 124
+  orig: 56, 126
+  offset: 1, 1
+  index: -1
+light
+  rotate: false
+  xy: 1369, 337
+  size: 141, 156
+  orig: 170, 240
+  offset: 15, 84
+  index: -1
+m
+  rotate: false
+  xy: 489, 14
+  size: 170, 121
+  orig: 172, 123
+  offset: 1, 1
+  index: -1
+s
+  rotate: true
+  xy: 957, 2
+  size: 133, 123
+  orig: 135, 125
+  offset: 1, 1
+  index: -1
+t
+  rotate: true
+  xy: 1369, 13
+  size: 101, 124
+  orig: 103, 126
+  offset: 1, 1
+  index: -1
+tt
+  rotate: false
+  xy: 1270, 375
+  size: 93, 118
+  orig: 95, 120
+  offset: 1, 1
+  index: -1
+tuowei
+  rotate: false
+  xy: 1110, 151
+  size: 158, 342
+  orig: 158, 342
+  offset: 0, 0
+  index: -1
+x_00
+  rotate: false
+  xy: 2, 6
+  size: 485, 487
+  orig: 512, 512
+  offset: 17, 11
+  index: -1
