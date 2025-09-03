@@ -10,19 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
-  m_Name: daoju_SkeletonData
+  m_Name: saoba_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 2907790a1cf8346419ca6622a59146e2, type: 2}
+  - {fileID: 11400000, guid: 5d633ea20ea286845933e14c9a97263b, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: ad2ffea24b5e4e74a9d839e766276aee, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: c4de2665a6da65f4a95ee567b0ace6fd, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
-    requiresBlendModeMaterials: 1
+    requiresBlendModeMaterials: 0
     applyAdditiveMaterial: 1
-    additiveMaterials:
-    - pageName: daoju.png
-      material: {fileID: 2100000, guid: fc2ff75f3ede9b246ac3f0a9a65e7974, type: 2}
+    additiveMaterials: []
     multiplyMaterials: []
     screenMaterials: []
   skeletonDataModifiers: []

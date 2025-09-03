@@ -12,6 +12,8 @@ public class HomePanel : BaseUIForms
     public static HomePanel Instance;
     public GameObject CoinObj;
     public GameObject CashoutBtn;
+    public GameObject CashoutBtnbg;
+
     public Image Coinimage;
     public Text CoinStr;
     public Text cashNumText;
@@ -46,12 +48,14 @@ public class HomePanel : BaseUIForms
         {
             CoinObj.SetActive(true);
             CashoutBtn.gameObject.SetActive(false);
+            CashoutBtnbg.gameObject.SetActive(false);
 
         }
         else
         {
             CoinObj.SetActive(false);
             CashoutBtn.gameObject.SetActive(true);
+            
 
         }
 

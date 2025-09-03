@@ -1,0 +1,20 @@
+
+saoba.png
+size: 333,170
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+saoba
+  rotate: true
+  xy: 2, 2
+  size: 166, 181
+  orig: 166, 184
+  offset: 0, 3
+  index: -1
+smoke_00006
+  rotate: false
+  xy: 185, 19
+  size: 146, 149
+  orig: 146, 149
+  offset: 0, 0
+  index: -1

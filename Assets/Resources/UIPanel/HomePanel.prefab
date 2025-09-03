@@ -2253,7 +2253,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2346625560010132336}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5508,6 +5508,7 @@ MonoBehaviour:
   close_button: {fileID: 0}
   CoinObj: {fileID: 3777639606742047849}
   CashoutBtn: {fileID: 3474791841324356323}
+  CashoutBtnbg: {fileID: 2346625560010132336}
   Coinimage: {fileID: 5758506517060025546}
   CoinStr: {fileID: 6571158646485732688}
   cashNumText: {fileID: 1168249497067319946}
