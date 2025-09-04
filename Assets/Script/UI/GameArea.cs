@@ -21,6 +21,9 @@ public class GameArea : MonoBehaviour
     public List<Transform> BallInsTrans; // 球生成点列表
     public CollectAreaManager collectAreaManager; // 使用新的智能收集系统
     public SkeletonGraphic m_SkeletonGraphic;
+    public Transform toolsUse1;
+    public Transform toolsUse2;
+
 
     [Header("生成设置")]
     public float spawnInterval = 0.1f; // 生成间隔时间（秒）
@@ -55,6 +58,7 @@ public class GameArea : MonoBehaviour
         m_SkeletonGraphic.AnimationState.Complete += OnAnimationComplete;
         GameEvents.GameFailContinue += () =>
         {
+            m_SkeletonGraphic.transform.position = toolsUse2.position;
             m_SkeletonGraphic.Skeleton.SetToSetupPose();
             m_SkeletonGraphic.AnimationState.ClearTracks();
             m_SkeletonGraphic.AnimationState.SetAnimation(0, "2", false);
@@ -128,17 +132,20 @@ public class GameArea : MonoBehaviour
         switch (toolsType)
         {
             case ToolsType.MAGNET:
+                m_SkeletonGraphic.transform.position = toolsUse1.position;
                 m_SkeletonGraphic.Skeleton.SetToSetupPose();
                 m_SkeletonGraphic.AnimationState.ClearTracks();
                 m_SkeletonGraphic.AnimationState.SetAnimation(0, "1", false);
 
                 break;
             case ToolsType.CLEAN:
+                m_SkeletonGraphic.transform.position = toolsUse2.position;
                 m_SkeletonGraphic.Skeleton.SetToSetupPose();
                 m_SkeletonGraphic.AnimationState.ClearTracks();
                 m_SkeletonGraphic.AnimationState.SetAnimation(0, "2", false);
                 break;
             case ToolsType.REFRESH:
+                m_SkeletonGraphic.transform.position = toolsUse1.position;
                 m_SkeletonGraphic.Skeleton.SetToSetupPose();
                 m_SkeletonGraphic.AnimationState.ClearTracks();
                 m_SkeletonGraphic.AnimationState.SetAnimation(0, "3", false);

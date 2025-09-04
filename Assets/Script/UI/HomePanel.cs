@@ -142,6 +142,34 @@ public class HomePanel : BaseUIForms
         m_DisappearPool.Init("m_BallPool", DisappearParent.transform);
         m_DisappearPool.Prefab = DisappearObject.gameObject;
     }
+    
+    /// <summary>
+    /// 检测键盘输入
+    /// </summary>
+    private void Update()
+    {
+        // 检测W键按下
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Debug.Log("检测到W键按下，触发公告");
+            TriggerManualAnnouncement();
+        }
+    }
+    
+    /// <summary>
+    /// 手动触发公告
+    /// </summary>
+    private void TriggerManualAnnouncement()
+    {
+        if (m_NoteView != null)
+        {
+            m_NoteView.ManualTriggerAnnouncement();
+        }
+        else
+        {
+            Debug.LogWarning("NoteView为空，无法触发公告");
+        }
+    }
     public void InsClickParticle(Transform pos)
     {
         var obj = m_ClickPool.Get();
