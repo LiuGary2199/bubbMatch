@@ -107,6 +107,7 @@ public class HomePanel : BaseUIForms
             GameManager.Instance.SetGameType(GameType.Challenge);
             StartGame();
         });
+        CoinStr.text = NumberUtil.DoubleToStr(GameDataManager.GetInstance().getToken());
         m_DailyRewardBtn.onClick.AddListener(() =>
         {
             OpenUIForm(nameof(SignInPanel));

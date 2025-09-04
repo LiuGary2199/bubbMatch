@@ -32,6 +32,7 @@ public class LevelCompletePanel : BaseUIForms
         m_SkeletonGraphic.AnimationState.Complete += OnAnimationComplete;
         ADButton.onClick.AddListener(() =>
         {
+            tween?.Kill();
             ADButton.enabled = false;
             NextLevelButton.enabled = false;
             if (isNewUser())
@@ -224,7 +225,7 @@ public class LevelCompletePanel : BaseUIForms
         if (completedLevel == 1)
         {
             // 检查是否已经显示过评级弹框
-            if (!SaveDataManager.GetBool(CConfig.sv_HasShowRatePanel))
+            if (!SaveDataManager.GetBool(CConfig.sv_HasShowRatePanel) && !CommonUtil.IsApple()) 
             {
                 Debug.Log("🎯 第一关过关，准备弹出RateUsPanel");
                 

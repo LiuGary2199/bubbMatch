@@ -8,6 +8,7 @@ public class ContinueOrFailPanel : BaseUIForms
     public GameObject m_FailPanel;
 
     public Button m_ContinueBtn;
+    public Button m_CoinBtn;
     public Button m_FailBtn;
     public Button m_SkipBtn;
     public Text m_LevelText;
@@ -34,6 +35,25 @@ public class ContinueOrFailPanel : BaseUIForms
                 }
             }, "7");
         });
+        m_CoinBtn.onClick.AddListener(() =>
+        {
+            m_CoinBtn.enabled = false;
+            double coin =  GameDataManager.GetInstance().getToken();
+            if (coin >= 200)
+            {
+                GameDataManager.GetInstance().addToken(-200);
+                HomePanel.Instance.CoinStr.text = NumberUtil.DoubleToStr(GameDataManager.GetInstance().getToken());
+                //继续游戏 通知出去
+                GameEvents.GameFailContinue?.Invoke();
+                CloseUIForm(GetType().Name);
+            }
+            else
+            {
+                UIManager.GetInstance().ShowUIForms(nameof(Toast), "Not enough diamonds.");
+                m_CoinBtn.enabled = true;
+            }
+        });
+
         m_SkipBtn.onClick.AddListener(() =>
         {
             m_ContinuePanel.SetActive(false);
@@ -77,6 +97,17 @@ public class ContinueOrFailPanel : BaseUIForms
         {
             m_LevelText.text = "CHALLENGE ";
 
+        }
+
+        if (CommonUtil.IsApple())
+        {
+            m_ContinueBtn.gameObject.SetActive(false);
+            m_CoinBtn.gameObject.SetActive(true);
+        }
+        else
+        {
+            m_ContinueBtn.gameObject.SetActive(true);
+            m_CoinBtn.gameObject.SetActive(false);
         }
         m_completeImage.fillAmount = HomePanel.Instance.ShowProgress();
         float a = HomePanel.Instance.ShowProgress() * 100f;
