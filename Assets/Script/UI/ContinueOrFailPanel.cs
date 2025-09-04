@@ -76,7 +76,7 @@ public class ContinueOrFailPanel : BaseUIForms
     public override void Display(object uiFormParams)
     {
         MusicMgr.GetInstance().PlayEffect(MusicType.UIMusic.Sound_PopShow);
-
+        m_CoinBtn.enabled = true;
         int isContinue = (int)uiFormParams;
         if (isContinue == 1)
         {
