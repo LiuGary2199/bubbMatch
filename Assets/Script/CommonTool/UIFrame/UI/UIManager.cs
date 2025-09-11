@@ -1,4 +1,4 @@
-﻿/*
+/*
 *
 *   功能：整个UI框架的核心，用户程序通过调用本类，来调用本框架的大多数功能。  
 *           功能1：关于入“栈”与出“栈”的UI窗体4个状态的定义逻辑
@@ -202,6 +202,8 @@ public class UIManager : MonoBehaviour
         _HasWaitingLevelCompletePanel = false;
         return ShowLevelCompletePanelDirectly(uiFormParams);
     }
+
+
     
     /// <summary>
     /// 直接显示LevelCompletePanel（不经过硬控制检查）
@@ -256,19 +258,12 @@ public class UIManager : MonoBehaviour
         {
             if (kvp.Value.CurrentUIType.UIForms_Type == UIFormType.PopUp)
             {
-                return true;
+                if (kvp.Key == nameof(LowRewardPanel))
+                {
+                    return true;
+                }
             }
-        }
-        
-        // 检查栈中的PopUp窗口
-        foreach (var uiForm in _StaCurrentUIForms)
-        {
-            if (uiForm.CurrentUIType.UIForms_Type == UIFormType.PopUp)
-            {
-                return true;
-            }
-        }
-        
+        }       
         return false;
     }
 

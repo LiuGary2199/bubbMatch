@@ -59,6 +59,8 @@ public class LevelCompletePanel : BaseUIForms
 
         NextLevelButton.onClick.AddListener(() =>
         {
+            ADButton.enabled = false;
+            NextLevelButton.enabled = false;
             ADstate = "0";
             CloseAnim();
         });
