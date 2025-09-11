@@ -68,7 +68,7 @@ public class FlyManager : MonoBehaviour
             GameObject obj = Instantiate(FlyItem.gameObject);
             obj.transform.SetParent(transform);
             obj.transform.localScale = Vector3.one;
-            obj.transform.localPosition = leftOrRight == 0 ? new Vector3(-650, 0, 0) : new Vector3(650, 0, 0);
+            obj.transform.localPosition = leftOrRight == 0 ? new Vector3(-650, 450, 0) : new Vector3(650, 450, 0);
         }
     }
 }

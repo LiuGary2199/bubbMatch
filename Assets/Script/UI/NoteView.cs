@@ -84,8 +84,8 @@ public class NoteView : MonoBehaviour
     {
         if (GameManager.Instance != null)
         {
+            isChallengeMode = true;
             StartAnnouncementSystem();
-            isChallengeMode = GameManager.Instance.GetGameType() == GameType.Challenge;
             if (isChallengeMode)
             {
                 Debug.Log("NoteView: Challenge模式，启动公告系统");

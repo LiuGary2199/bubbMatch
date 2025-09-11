@@ -88,19 +88,29 @@ public class FlyItem : MonoBehaviour
 
     private void LeftFly()
     {
-        transform.localPosition = new Vector3(-450f, 0, 0);
+        // 从左侧上方开始
+        transform.localPosition = new Vector3(-650f, 450f, 0);
+        
+        // 固定的Y轴范围，取消随机
+        float topY = 450f;
+        float bottomY = -250f;
+        
+        // Y轴上下飘动动画 - 从当前位置开始向下移动
         _Via1 = DOTween.Sequence();
-        _Via2 = DOTween.Sequence();
-        _Via1.Append(transform.DOLocalMoveY(-250f - Random.Range(-100f, 100f), 2.5f).SetEase(Ease.InSine));
-        _Via1.Append(transform.DOLocalMoveY(0, 2.5f).SetEase(Ease.InSine));
+        _Via1.Append(transform.DOLocalMoveY(bottomY, 4f).SetEase(Ease.InOutSine));
+        _Via1.Append(transform.DOLocalMoveY(topY, 4f).SetEase(Ease.InOutSine));
         _Via1.SetLoops(-1);
         _Via1.Play();
 
+        // 缩放动画
+        _Via2 = DOTween.Sequence();
         _Via2.Append(transform.DOScale(1.1f, 0.5f).SetEase(Ease.Linear));
         _Via2.Append(transform.DOScale(1f, 0.5f).SetEase(Ease.Linear));
         _Via2.SetLoops(-1);
         _Via2.Play();
-        transform.DOLocalMoveX(650, 10f).SetEase(Ease.Linear).OnComplete(() =>
+        
+        // X轴向右移动
+        transform.DOLocalMoveX(650, 15f).SetEase(Ease.Linear).OnComplete(() =>
         {
             if (FlyManager.Instance.isOpenFly)
             {
@@ -116,19 +126,29 @@ public class FlyItem : MonoBehaviour
 
     private void RigthFly()
     {
-        transform.localPosition = new Vector3(450, 100, 0);
+        // 从右侧上方开始
+        transform.localPosition = new Vector3(650, 450f, 0);
+        
+        // 固定的Y轴范围，取消随机
+        float topY = 450f;
+        float bottomY = -250f;
+        
+        // Y轴上下飘动动画 - 从当前位置开始向下移动（与LeftFly完全一致）
         _Via1 = DOTween.Sequence();
-        _Via2 = DOTween.Sequence();
-        _Via1.Append(transform.DOLocalMoveY(0, 2.5f).SetEase(Ease.InSine));
-        _Via1.Append(transform.DOLocalMoveY(100, 2.5f).SetEase(Ease.InSine));
+        _Via1.Append(transform.DOLocalMoveY(bottomY, 4f).SetEase(Ease.InOutSine));
+        _Via1.Append(transform.DOLocalMoveY(topY, 4f).SetEase(Ease.InOutSine));
         _Via1.SetLoops(-1);
         _Via1.Play();
 
+        // 缩放动画（与LeftFly完全一致）
+        _Via2 = DOTween.Sequence();
         _Via2.Append(transform.DOScale(1.1f, 0.5f).SetEase(Ease.Linear));
         _Via2.Append(transform.DOScale(1f, 0.5f).SetEase(Ease.Linear));
         _Via2.SetLoops(-1);
         _Via2.Play();
-        transform.DOLocalMoveX(-650, 10f).SetEase(Ease.Linear).OnComplete(() =>
+        
+        // X轴向左移动
+        transform.DOLocalMoveX(-650, 15f).SetEase(Ease.Linear).OnComplete(() =>
         {
             if (FlyManager.Instance.isOpenFly)
             {
@@ -139,7 +159,6 @@ public class FlyItem : MonoBehaviour
                 FlyKill();
                 StartCoroutine(LoopFly(() => { LeftFly(); }));
             }
-
         });
     }
 

@@ -14,7 +14,7 @@ public class CommonUtil
     public static bool IsApple()
     {
         //测试
-         return false;
+         //return false;
 
         if (PlayerPrefs.HasKey("Save_AP"))  //优先使用本地存档
             Save_AP = PlayerPrefs.GetString("Save_AP");

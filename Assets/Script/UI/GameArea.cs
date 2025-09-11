@@ -48,7 +48,8 @@ public class GameArea : MonoBehaviour
     public List<ToolsButtons> toolsButtons = new List<ToolsButtons>();
     public int challengeFailCount = 0;
 
-    public Image progressImage;    
+    public Image progressImage;
+    public RectTransform particalObj;
     [Header("保底机制")]
     private bool hasTriggeredGuarantee = false; // 是否已触发保底操作
 
@@ -2280,16 +2281,18 @@ public class GameArea : MonoBehaviour
         {
             float targetProgress = GetProgress();
             float currentProgress = progressImage.fillAmount;
-            
+            particalObj.gameObject.SetActive(true);
             // 使用DOTween创建平滑的进度条动画
             progressImage.DOFillAmount(targetProgress, 0.5f)
                 .SetEase(Ease.OutQuart)
                 .OnUpdate(() => {
+                    particalObj.anchoredPosition = new Vector2 (-208 + progressImage.fillAmount* 416f, particalObj.anchoredPosition.y);
                     // 可选：在动画过程中添加额外的视觉效果
                     // 比如进度条的颜色变化、发光效果等
                 })
                 .OnComplete(() => {
                     Debug.Log($"进度条动画完成: {targetProgress:P2}");
+                    particalObj.gameObject.SetActive(false);
                 });
             
             Debug.Log($"进度条动画开始: {currentProgress:P2} → {targetProgress:P2}");
@@ -2304,6 +2307,8 @@ public class GameArea : MonoBehaviour
         if (progressImage != null)
         {
             // 直接重置为0，不使用动画
+            particalObj.anchoredPosition = new Vector2(-208f, particalObj.anchoredPosition.y);
+            particalObj.gameObject.SetActive(false);
             progressImage.fillAmount = 0f;
             Debug.Log("进度条已重置为0");
         }
