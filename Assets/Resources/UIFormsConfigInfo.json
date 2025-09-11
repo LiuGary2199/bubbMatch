@@ -8,6 +8,10 @@
 			"Value": "UIPanel\\HomePanel"
 		},
 		{
+			"Key": "HomePanel1",
+			"Value": "UIPanel\\HomePanel1"
+		},
+		{
 			"Key": "GamePanel",
 			"Value": "UIPanel\\GamePanel"
 		},

@@ -155,6 +155,7 @@ public class CashOutPanel : BaseUIForms
     public override void Hidding()
     {
         base.Hidding();
+        GameEvents.TutorialClickAction?.Invoke();
         CashOutManager.GetInstance().WaitToSendEvent1304();
     }
 

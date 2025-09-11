@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 
  * 常量配置
  * 
@@ -35,7 +35,10 @@ public class CConfig
     /// 是否是新用户玩家 (bool)
     /// </summary>
     public const string sv_IsNewPlayer = "sv_IsNewPlayer";
-
+    /// <summary>
+    /// 是否是新用户玩家 (bool)
+    /// </summary>
+    public const string sv_TutorialGuide = "sv_TutorialGuide";
     /// <summary>
     /// 签到次数 (int)
     /// </summary>

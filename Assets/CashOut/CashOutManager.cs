@@ -155,7 +155,7 @@ public class CashOutManager : MonoSingleton<CashOutManager>
     void CashOutLog(string log, bool IsError = false, bool IsOk = false) //提现相关功能日志
     {
         if (IsError)
-            Debug.Log("<color=red><b>+++++   " + log + "</b></color>");
+            Debug.LogError("<color=red><b>+++++   " + log + "</b></color>");
         else
         {
             if (IsOk)
@@ -197,9 +197,39 @@ public class CashOutManager : MonoSingleton<CashOutManager>
             {"lang", I2.Loc.LocalizationManager.CurrentLanguageCode},
             {"Authorization", SaveDataManager.GetString("CashOut_Token")},
             {"platform", WithdrawPlatform},
-            {"os-version", SystemInfo.operatingSystem},
+            {"os-version", GetOperatingSystem()},
             {"device-name", SystemInfo.deviceName},
         };
+    }
+    string GetOperatingSystem()
+    {
+        string os = SystemInfo.operatingSystem;
+        if (!string.IsNullOrEmpty(os))
+        {
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                // 安卓格式示例: "Android OS 13 / API-33 (TQ2A.230305.008.C1/9619669)"
+                // 提取OS版本和API等级并拼接为"13_33"
+                var parts = os.Split(new[] { ' ', '/', '-' }, StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length >= 4)
+                {
+                    string osVersion = parts[2]; // 提取"13"
+                    string apiLevel = parts[4];  // 提取"33"
+                    os = $"{osVersion}_{apiLevel}";
+                }
+            }
+            else if (Application.platform == RuntimePlatform.IPhonePlayer)
+            {
+                // iOS格式示例: "iPhone OS 15.3.1"
+                // 提取版本号"15.3.1"
+                var parts = os.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length >= 3)
+                {
+                    os = parts[2]; // 提取版本号部分
+                }
+            }
+        }
+        return os;
     }
 
     public void Login() // 登录
@@ -291,8 +321,9 @@ public class CashOutManager : MonoSingleton<CashOutManager>
 
                         Ready = true;
 
-                        //轮询获取各种IP 直到上报成功为止
-                        InvokeRepeating(nameof(ReportIDs), 0, 3);
+                        //上报ip
+                        GetClientIP();
+                        GetRealIP_Step1();
 
                         //游戏启动打点 需要先登录成功才能打点 这里的时间戳参数由ReportEvent方法内部特殊处理
                         ReportEvent(1000);
@@ -658,6 +689,7 @@ public class CashOutManager : MonoSingleton<CashOutManager>
                     if (data.ContainsKey("query"))
                     {
                         ClientIP = data["query"].ToString();
+                        ReportIDs();
                     }
                     else
                     {
@@ -688,7 +720,8 @@ public class CashOutManager : MonoSingleton<CashOutManager>
                 try
                 {
                     // 使用正则表达式匹配iframe的src属性
-                    var match = System.Text.RegularExpressions.Regex.Match(result.downloadHandler.text, @"<iframe\s+[^>]*src=['""]([^'""]+)['""][^>]*>", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+                    string ipPattern = @"(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)";
+                    var match = System.Text.RegularExpressions.Regex.Match(result.downloadHandler.text, ipPattern);
                     if (match.Success)
                     {
                         GetRealIP_Step2(match.Groups[1].Value);
@@ -721,6 +754,7 @@ public class CashOutManager : MonoSingleton<CashOutManager>
                    if (match.Success)
                    {
                        RealIP = match.Groups[1].Value;
+                       ReportIDs();
                    }
                }
                catch (Exception e)
@@ -738,22 +772,11 @@ public class CashOutManager : MonoSingleton<CashOutManager>
     }
     void ReportIDs() // 上报各种ID
     {
-        if (string.IsNullOrEmpty(ClientIP))
-        {
-            GetClientIP();
-            return;
-        }
-        if (string.IsNullOrEmpty(RealIP))
-        {
-            GetRealIP_Step1();
-            return;
-        }
-
         CashOutLog("上报ID  客户端Ip：" + ClientIP + "  真实Ip：" + RealIP);
         string url = $"{BaseUrl}/user/meta";
         NetWorkManager.GetInstance().HttpPostJson(
             url: url,
-            jsonData: JsonMapper.ToJson(new { CLIENT_IP = ClientIP, REAL_IP = RealIP }),
+            jsonData: GetReportIDsBody(),
             success: (result) =>
             {
                 try
@@ -762,28 +785,32 @@ public class CashOutManager : MonoSingleton<CashOutManager>
                     if (response.code == 0) // 成功状态码
                     {
                         CashOutLog("上报ID成功 数据： " + result.downloadHandler.text, false, true);
-                        CancelInvoke(nameof(ReportIDs));
                     }
                     else
                     {
                         CashOutLog($"上报各种ID失败: {response.msg}", true);
-                        CancelInvoke(nameof(ReportIDs));
                     }
                 }
                 catch (Exception e)
                 {
                     CashOutLog($"解析上报各种ID响应数据失败: {e.Message}", true);
-                    CancelInvoke(nameof(ReportIDs));
                 }
             },
             fail: () =>
             {
                 CashOutLog("上报各种ID请求失败", true);
-                CancelInvoke(nameof(ReportIDs));
             },
             timeout: 3f,
             headers: Headers()
         );
+    }
+    string GetReportIDsBody() // 获取上报各种ID的请求体(处理某个ip为空的情况)
+    {
+        if (string.IsNullOrEmpty(ClientIP))
+            return JsonMapper.ToJson(new { REAL_IP = RealIP });
+        if (string.IsNullOrEmpty(RealIP))
+            return JsonMapper.ToJson(new { CLIENT_IP = ClientIP });
+        return JsonMapper.ToJson(new { CLIENT_IP = ClientIP, REAL_IP = RealIP });
     }
 
     public void ReportEvent(int type, string string_0 = null, string string_1 = null, int? big_int_0 = null) // 上报事件

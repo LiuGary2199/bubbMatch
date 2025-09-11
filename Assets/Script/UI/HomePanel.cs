@@ -49,14 +49,11 @@ public class HomePanel : BaseUIForms
             CoinObj.SetActive(true);
             CashoutBtn.gameObject.SetActive(false);
             CashoutBtnbg.gameObject.SetActive(false);
-
         }
         else
         {
             CoinObj.SetActive(false);
             CashoutBtn.gameObject.SetActive(true);
-            
-
         }
 
         GameEvents.ClickParticle += (pos) =>
@@ -87,6 +84,10 @@ public class HomePanel : BaseUIForms
             Debug.Log("Play Level Button Clicked");
             GameManager.Instance.SetGameType(GameType.Level);
             StartGame();
+            if (!SaveDataManager.GetBool(CConfig.sv_TutorialGuide))
+            {
+                TutorialGuide.Instance.ShowCLickMAshk();
+            }
         });
         m_PlayDailyBtn.onClick.AddListener(() =>
         {

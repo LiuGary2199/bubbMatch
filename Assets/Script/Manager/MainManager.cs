@@ -8,6 +8,12 @@ public class MainManager : MonoBehaviour
     public static MainManager instance;
 
     private bool ready = false;
+    // 基础分辨率（例如1920×1080）
+    private float baseWidth = 1080f;
+    private float baseHeight = 1920f;
+    float currentWidth =0;
+    float currentHeight = 0;
+    private float _scaleRatio;
 
     private void Awake()
     {
@@ -30,6 +36,7 @@ public class MainManager : MonoBehaviour
             SaveDataManager.SetInt(CConfig.sv_tools_ref, 1);
             SaveDataManager.SetInt(CConfig.sv_ad_trial_num,1);
             SaveDataManager.SetInt(CConfig.sv_challenge_num,0);
+            SaveDataManager.SetBool(CConfig.sv_TutorialGuide, false);
         }
         if (!PlayerPrefs.HasKey("sv_vibrationType"))
         {
@@ -39,7 +46,22 @@ public class MainManager : MonoBehaviour
         HapticController.hapticsEnabled = (SaveDataManager.GetInt("sv_vibrationType") == 1);
         MusicMgr.GetInstance().PlayBg(MusicType.SceneMusic.Sound_BGM);
 
-        UIManager.GetInstance().ShowUIForms(nameof(HomePanel));
+        currentWidth = Screen.width;
+        currentHeight = Screen.height;
+        float baseAspect = baseWidth / baseHeight;
+        float currentAspect = currentWidth / currentHeight;
+        if (currentAspect < baseAspect)
+        {//2340 1080
+            Debug.Log("宽屏适配");
+            UIManager.GetInstance().ShowUIForms("HomePanel1");
+        }
+        else
+        {//1920   1080
+            Debug.Log("宽屏适配1");
+            UIManager.GetInstance().ShowUIForms(nameof(HomePanel));
+        }
+
+       
 
         ready = true;
     }

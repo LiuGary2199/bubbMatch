@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,7 +14,7 @@ public class CommonUtil
     public static bool IsApple()
     {
         //测试
-        // return true;
+         return false;
 
         if (PlayerPrefs.HasKey("Save_AP"))  //优先使用本地存档
             Save_AP = PlayerPrefs.GetString("Save_AP");

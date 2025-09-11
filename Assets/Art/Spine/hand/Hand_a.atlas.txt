@@ -1,0 +1,20 @@
+
+Hand_a.png
+size: 260,191
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_pubCir01
+  rotate: false
+  xy: 207, 138
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 2, 2
+  size: 203, 187
+  orig: 205, 189
+  offset: 1, 1
+  index: -1
