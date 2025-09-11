@@ -84,10 +84,14 @@ public class HomePanel : BaseUIForms
             Debug.Log("Play Level Button Clicked");
             GameManager.Instance.SetGameType(GameType.Level);
             StartGame();
-            if (!SaveDataManager.GetBool(CConfig.sv_TutorialGuide))
+            if (!CommonUtil.IsApple())
             {
-                TutorialGuide.Instance.ShowCLickMAshk();
+                if (!SaveDataManager.GetBool(CConfig.sv_TutorialGuide))
+                {
+                    TutorialGuide.Instance.ShowCLickMAshk();
+                }
             }
+           
         });
         m_PlayDailyBtn.onClick.AddListener(() =>
         {
