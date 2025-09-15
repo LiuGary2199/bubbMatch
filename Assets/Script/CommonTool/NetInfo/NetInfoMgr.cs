@@ -373,6 +373,7 @@ public class NetInfoMgr : MonoBehaviour
             {
                 Debug.Log("服务器更新adjust adid 失败");
             });
+        CashOutManager.GetInstance().ReportAdjustID();
     }
 
 
