@@ -234,7 +234,7 @@ public class HomePanel : BaseUIForms
         else
         {
             m_LevelBtnText2.text = "LEVEL " + GameManager.Instance.GetLevel();
-            if(GameManager.Instance.GetLevel()> NetInfoMgr.instance.GameData.challengelevel && !SaveDataManager.GetBool(CConfig.sv_FirstChallenge))
+            if(GameManager.Instance.GetLevel()> NetInfoMgr.instance.GameData.challengelevel && !SaveDataManager.GetBool(CConfig.sv_FirstChallenge) && !CommonUtil.IsApple())
             {
                 UIManager.GetInstance().ShowUIForms(nameof(TipsChallenge));
                 return;
@@ -244,8 +244,8 @@ public class HomePanel : BaseUIForms
         m_MainPage.SetActive(false);
         m_GameArea.GameStart();
         m_NoteView.Init();
-        m_GameArea.collectAreaManager.RefShowTips();
         m_GameArea.RefShowTips();
+        m_GameArea.collectAreaManager.RefShowTips();
     }
 
 

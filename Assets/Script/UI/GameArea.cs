@@ -2460,6 +2460,11 @@ public class GameArea : MonoBehaviour
     }
     public void RefShowTips()
     {
+        if (CommonUtil.IsApple())
+        {
+            Tipsobj.SetActive(false);
+            return;
+        }
         Tipsobj.SetActive(GameManager.Instance.GetGameType() == GameType.Challenge);
     }
 

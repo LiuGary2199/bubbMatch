@@ -72,6 +72,11 @@ public class CollectAreaManager : MonoBehaviour
 
     public void RefShowTips()
     {
+        if (CommonUtil.IsApple())
+        {
+            Tipsobj.SetActive(false);
+            return;
+        }
         if(GameManager.Instance.GetGameType() == GameType.Level)
         {
             Tipsobj.SetActive(false);
