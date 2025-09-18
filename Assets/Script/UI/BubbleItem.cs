@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Lofelt.NiceVibrations;
 
 /// <summary>
 /// 增强版泡泡物品脚本 - 统一使用简单直线移动动画
@@ -144,6 +145,7 @@ public class BubbleItem : MonoBehaviour
         }
         MusicMgr.GetInstance().PlayEffect(MusicType.UIMusic.Sound_ballclick);
         GameEvents.ClickParticle?.Invoke(this.transform);
+        HapticPatterns.PlayPreset(HapticPatterns.PresetType.HeavyImpact);
         OnclickItem?.Invoke(this);
     }
 

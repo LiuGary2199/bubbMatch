@@ -25,6 +25,8 @@ public class CollectAreaManager : MonoBehaviour
     private bool isGapFilling = false; // 是否正在补位
     private int continuousMatches = 0; // 连续消除次数
     private bool hasTriggeredGameOver = false; // 是否已经触发过游戏失败
+
+    public GameObject Tipsobj;
     
     /// <summary>
     /// 是否正在处理三消（公共属性，供外部检查）
@@ -66,6 +68,20 @@ public class CollectAreaManager : MonoBehaviour
         }
         
         // Debug.Log($"CollectAreaManager: 初始化 {bubbleSlots.Length} 个槽位");
+    }
+
+    public void RefShowTips()
+    {
+        if(GameManager.Instance.GetGameType() == GameType.Level)
+        {
+            Tipsobj.SetActive(false);
+            return;
+        }
+        if(isPos8Unlocked){
+            Tipsobj.SetActive(false);
+        }else{
+            Tipsobj.SetActive(true);
+        }
     }
     
     /// <summary>
@@ -160,6 +176,7 @@ public class CollectAreaManager : MonoBehaviour
                 {
                     PostEventScript.GetInstance().SendEvent("1012", "1");
                 }
+                RefShowTips();
             }else{
                 ADDPosBtn.enabled = true;
             }
@@ -176,6 +193,7 @@ public class CollectAreaManager : MonoBehaviour
         isPos8Unlocked = false;
         ADDPosBtn.gameObject.SetActive(true);
         ADDPosBtn.enabled = true;
+        RefShowTips();
     }
     
     /// <summary>

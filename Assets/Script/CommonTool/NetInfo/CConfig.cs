@@ -188,6 +188,10 @@ public class CConfig
     /// 游戏资源数量变化
     /// </summary>
     public static string mg_ItemChange_ = "mg_ItemChange_";
+    /// <summary>
+    /// 游戏资源数量变化
+    /// </summary>
+    public static string sv_FirstChallenge = "sv_FirstChallenge";
 
     /// <summary>
     /// 活动状态变更

@@ -67,6 +67,8 @@ public class HomePanel : BaseUIForms
 
         // 监听重新开始游戏事件
         GameEvents.GameRestart += OnGameRestart;
+        GameEvents.FirstChallenge += OnFirstChallenge;
+
 
         Instance = this;
         m_MainPage.SetActive(true);
@@ -221,22 +223,32 @@ public class HomePanel : BaseUIForms
 
     public void StartGame()
     {
-          if (GameManager.Instance.GetGameType() == GameType.Challenge)
-        {
-            m_LevelBtnText2.text = "Challenge";
-        }else{
-            m_LevelBtnText2.text = "LEVEL " + GameManager.Instance.GetLevel();
-        }
         if (GameManager.Instance.GetGameType() == GameType.Challenge)
         {
+            m_LevelBtnText2.text = "Challenge";
+            PostEventScript.GetInstance().SendEvent("1017");
             int challenge_num = SaveDataManager.GetInt(CConfig.sv_challenge_num);
             challenge_num++;
             SaveDataManager.SetInt(CConfig.sv_challenge_num, challenge_num);
         }
+        else
+        {
+            m_LevelBtnText2.text = "LEVEL " + GameManager.Instance.GetLevel();
+            if(GameManager.Instance.GetLevel()> NetInfoMgr.instance.GameData.challengelevel && !SaveDataManager.GetBool(CConfig.sv_FirstChallenge))
+            {
+                UIManager.GetInstance().ShowUIForms(nameof(TipsChallenge));
+                return;
+            }
+        }
+        
         m_MainPage.SetActive(false);
         m_GameArea.GameStart();
         m_NoteView.Init();
+        m_GameArea.collectAreaManager.RefShowTips();
+        m_GameArea.RefShowTips();
     }
+
+
 
     /// <summary>
     /// 开始下一关
@@ -328,6 +340,29 @@ public class HomePanel : BaseUIForms
     /// 重新开始游戏的处理方法
     /// </summary>
     private void OnGameRestart()
+    {
+        Debug.Log("重新开始游戏");
+
+        // 重置游戏区域
+        if (m_GameArea != null)
+        {
+            m_GameArea.ResetGame();
+        }
+        
+        // 🎯 重置广告解锁的槽位状态
+        if (m_GameArea != null && m_GameArea.collectAreaManager != null)
+        {
+            m_GameArea.collectAreaManager.ResetUnlockStatus();
+        }
+        
+        // 重新开始游戏
+        StartGame();
+    }
+
+    /// <summary>
+    /// 重新开始游戏的处理方法
+    /// </summary>
+    private void OnFirstChallenge()
     {
         Debug.Log("重新开始游戏");
 

@@ -51,7 +51,15 @@ public class LowRewardPanel : BaseUIForms
         GetButton.onClick.AddListener(() =>
         {
             AdState = "0";
-            PostEventScript.GetInstance().SendEvent("1004","0");
+            if (GameManager.Instance.GetGameType() == GameType.Level)
+            {
+                PostEventScript.GetInstance().SendEvent("1004", "0");
+            }
+            else
+            {
+                PostEventScript.GetInstance().SendEvent("1018", "0");
+
+            }
             ADButton.enabled = false;
             GetButton.enabled = false;
             HomePanel.Instance.AddCash(rewardValue, rewardTrans);
@@ -107,7 +115,15 @@ public class LowRewardPanel : BaseUIForms
             HomePanel.Instance.AddCash(rewardValue, rewardTrans);
             DOVirtual.DelayedCall(0.5f, () =>
             {
-                PostEventScript.GetInstance().SendEvent("1004","1");
+                if (GameManager.Instance.GetGameType() == GameType.Level)
+                {
+                    PostEventScript.GetInstance().SendEvent("1004", "1");
+                }
+                else
+                {
+                    PostEventScript.GetInstance().SendEvent("1018", "1");
+
+                }
                 CloseUIForm(GetType().Name);
             });
         });

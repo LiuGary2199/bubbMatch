@@ -37,6 +37,7 @@ public class MainManager : MonoBehaviour
             SaveDataManager.SetInt(CConfig.sv_ad_trial_num,1);
             SaveDataManager.SetInt(CConfig.sv_challenge_num,0);
             SaveDataManager.SetBool(CConfig.sv_TutorialGuide, false);
+            SaveDataManager.SetBool(CConfig.sv_FirstChallenge,false);
         }
         if (!PlayerPrefs.HasKey("sv_vibrationType"))
         {

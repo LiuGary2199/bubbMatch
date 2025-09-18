@@ -225,7 +225,7 @@ public class NoteView : MonoBehaviour
         int randomNum2 = Random.Range(100, 1000); // 100-999
 
         // 格式化公告文字，使用Rich Text让$1000变红
-        string announcement = $"user{randomNum1}***{randomNum2} has passe the daily challenge and won the <color=red>$1000</color>";
+        string announcement = $"user{randomNum1}***{randomNum2} has passe the daily challenge and won the <color=red>$2000</color>";
 
         return announcement;
     }

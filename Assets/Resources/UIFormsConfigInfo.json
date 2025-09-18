@@ -86,6 +86,10 @@
 		{
 			"Key": "InsertTips",
 			"Value": "UIPanel\\InsertTips"
+		},
+		{
+			"Key": "TipsChallenge",
+			"Value": "UIPanel\\TipsChallenge"
 		}
 	]
 }

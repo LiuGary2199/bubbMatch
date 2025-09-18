@@ -74,10 +74,14 @@ public class SignInPanel : BaseUIForms
 
         try
         {
-            // 播放音效
-            // MusicMgr.GetInstance().PlayEffect(MusicType.UIMusic.Sound_Progress_Box);
-
-            checkNums++;
+           ADManager.Instance.playRewardVideo((success) =>
+        {
+            if (success)
+            {
+                PostEventScript.GetInstance().SendEvent("1019", "0");
+                // 播放音效
+                // MusicMgr.GetInstance().PlayEffect(MusicType.UIMusic.Sound_Progress_Box);
+                checkNums++;
             Debug.Log($"After checkNums++: checkNums={checkNums}");
 
             // 先保存签到数据
@@ -90,9 +94,12 @@ public class SignInPanel : BaseUIForms
 
             // 更新UI状态
             RewardPanelInit();
-
+            MusicMgr.GetInstance().PlayEffect(MusicType.UIMusic.Sound_UIButton);
             // 获取奖励
             GetClaimReward();
+               
+            }
+        }, "9");           
         }
         catch (Exception e)
         {
@@ -114,6 +121,7 @@ public class SignInPanel : BaseUIForms
         if (!isCheck)
         {
             Debug.Log("今天已经签到过了");
+            UIManager.GetInstance().ShowUIForms(nameof(Toast),"Reward Claimed");
             return false;
         }
 

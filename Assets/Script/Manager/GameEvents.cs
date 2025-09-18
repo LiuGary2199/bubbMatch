@@ -18,6 +18,7 @@ public static class GameEvents
     public static Action<BubbleItem> BubbleRemovedFromCleanArea { get; set; }
     public static Action OnThreeMatchCompleted { get; set; }
     public static Action TutorialClickAction { get; set; }
+    public static Action FirstChallenge { get; set; }
 
 }
 
